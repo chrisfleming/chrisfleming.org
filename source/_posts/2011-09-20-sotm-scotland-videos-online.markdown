@@ -13,9 +13,11 @@ tags:
 - sotmscot
 ---
 
+<iframe width="640" height="360" src="http://www.youtube.com/embed/xpYPuaf0HYc" frameborder="0" allowfullscreen></iframe>
 
-
-As well as [Bob](http://www.openstreetmap.org/user/Central%20America) doing an introduction to [OSM](http://www.openstreetmap.org) (above), all the video's from the conference, including [my talk](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/) all now up, at: [http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Scotland_2011#Schedule](http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Scotland_2011#Schedule)
+As well as [Bob](http://www.openstreetmap.org/user/Central%20America) doing an introduction to [OSM](http://www.openstreetmap.org) (above), all the video's from the conference, including
+[my talk](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/)
+all now up, at: <http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Scotland_2011#Schedule>
 
 Hopefully I'll get my slides from the other talk I did, on making my festival map (reused from [WhereCamp EU](http://wherecamp.eu/)) online in the next few days.
 

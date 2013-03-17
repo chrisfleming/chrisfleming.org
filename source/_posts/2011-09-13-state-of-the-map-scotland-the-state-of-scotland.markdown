@@ -9,65 +9,62 @@ categories:
 - OpenStreetMap
 ---
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide02.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide02/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide02.jpg)
 
 With the "Official" [State of the Map](http://stateofthemap.org/) Conference in Denver finishing over the weekend, I'm reminded that I've not yet put my talk from our little un-conference at the end of August up on, and as we have a [social in Edinburgh this evening, ](http://wiki.openstreetmap.org/wiki/Edinburgh#Social_Events) I though that I had better do that. So here are my slides and a rough version of what I talked about, we had a mixed group so who were new to OpenStreetMap and also regular mappers; my plan was to try and put something in for both groups.
 
 The talk started by thinking about what is OpenStreetMap...
 
-[![OpenStreetMap creates and provides free geographic  data such as street maps to anyone who wants them. The project was started because most maps you think  of as free actually have legal or technical restrictions  on their use, holding back people from using them in  creative, productive, or unexpected ways.  ](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide03.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide03/)
+![OpenStreetMap creates and provides free geographic  data such as street maps to anyone who wants them. The project was started because most maps you think  of as free actually have legal or technical restrictions  on their use, holding back people from using them in  creative, productive, or unexpected ways.  ](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide03.jpg)
 
-[photo: http://www.flickr.com/photos/johnmueller/52621490/](Image from: http://www.flickr.com/photos/johnmueller/52621490/ )
 
 So we have the Open data definition of OpenStreetMap, but what does it actually look like:
 
-[![The OpenSteetMap Foundation The Map The Planet File The Website The Wiki Tools The Community  .???? ](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide04.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide04/)
+![The OpenSteetMap Foundation The Map The Planet File The Website The Wiki Tools The Community  .???? ](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide04.jpg)
 
-[photo: http://farm6.static.flickr.com/5081/5237521828_536640e421_o.jpg](http://farm6.static.flickr.com/5081/5237521828_536640e421_o.jpg )
 
 So what does OpenStreetMap Look Like? What tangible and untangible things do we have?
 
 Well like it or not OSM was formed on an open principle of licensing so lets start there....
 
-[![CC-BY-SA](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide05.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide05/)
+![CC-BY-SA](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide05.jpg)
 
 So we started with a [CC-BY-SA license ](http://creativecommons.org/licenses/by-sa/2.0/) which is built on the principle that you are free to Share or Adapt, the work provided that you Attribute and Share Alike the resulting work. But there are problems with this for a database such as OSM's so there has been a process to create the ODBL:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide06.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide06/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide06.jpg)
 
-[photo: http://www.flickr.com/photos/sunfrog1/307110936/](http://www.flickr.com/photos/sunfrog1/307110936/ )
 
 I'm not going to get into the nitty gritty now, and [Dair](http://refnum.com/) is going to be talking about the advantages of ODBL over CC-BY-SA later. But the ongoing process is not without pain, but the end result will be a map that is much easier to actually use, and that what we're about.
 
 So is OSM about the MAP? We definitly have advantages over other maps, for example the A to Z might show:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide07.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide07/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide07.jpg
 
 A close where this is a row of houses as an Easter Egg.
 
 Also our map can be much better than the alternatives: Take a look at one of the area's I first mapped on Bing:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide09.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide09/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide09.jpg)
 
 In google:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide10.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide10/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide10.jpg)
 
 and on OSM:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide11.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide11/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide11.jpg)
 
 As well as factual inaccuracies, such as Road naming, missing streets, and incorrect road geometries, there are also additional details such as cycle paths, foot paths, private roads, buildings, schools, parks, station platforms and steps on OSM.
 
 We can also do more interesting things with maps, such as create our versions from the underlying data:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide12.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide12/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide12.jpg)
 
 This is from my work in Progress for [Edinburgh Festival Maps](http://edinburghfestivalmaps.co.uk/). Where I can choose what is displayed and what isn't, for example the fringe venues show their festival names and are shown in blue.
 
 And all this is possible because it's a map we can Edit ourseleves.
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide131.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide13-2/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide131.jpg)
 
 and the data model is pretty simple, at the bottom we have nodes, on there own these can represent point objects. Such as cycle parking, traffic lights, bollards. There can be connected together to for ways. There might represent roads or building, boundaries, rivers anything that might be represented by a line or a closed area.
 
@@ -75,39 +72,38 @@ Less simple, we also have relations, these are collections or ways or nodes, and
 
 On top of these we have a flexible tagging scheme:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide14.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide14/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide14.jpg)
 
 the tagging scheme is totally open, there are no rules enforced by the API or the database. This means that you are free to tag things however you want. But the community has a set of conventions that are documented on the wiki and generally these are adhered to. But the important thing here is when you find something new; there aren't any committees deciding how to tag, you just do it.
 
 So is OSM the hardware?
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide15.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide15/)
+[![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide15.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide15/)
 
-[Photo: http://www.flickr.com/photos/67155762@N00/3388293945/](http://www.flickr.com/photos/67155762@N00/3388293945/)
 
 or the code?
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide16.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide16/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide16.jpg)
 
 I would say that it's the community:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide17.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide17/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide17.jpg)
 
 Not that kind of community...
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide18.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide18/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide18.jpg)
 
 This kind of community - this picture is from the Edinburgh Zoo mapping party where we mapped the zoo out:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide19.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide19/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide19.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide19/)
 
-it's the same community that meant that in November 2007, Edinburgh looked like:
+It's the same community that meant that in November 2007, Edinburgh looked like:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide20.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide20/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide20.jpg)
 
 and in August 2012:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide21.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide21/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide21.jpg)
 
 and overall the numbers against the ITO analysis look pretty good:
 
@@ -182,17 +178,16 @@ This means that Scotland is 93% "Complete" by this measure.
 
 and when we are 100% complete on this measure there may be other measures to look at:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide25.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide25/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide25.jpg)
 
 such as the meridian analysis, but we need to complete the map first. For now, and I don't want to start a fight:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide26.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide26/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide26.jpg)
 
 we're going to do that by tracing:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide27.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide27/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide27.jpg)
 
-[photo: http://farm5.static.flickr.com/4041/4441209986_29ecf7f7b7_o.jpg](http://farm5.static.flickr.com/4041/4441209986_29ecf7f7b7_o.jpg )
 
 Which is great, people can use the maps with confidence; and across the country we know we at very least meet the google maps standard, but for the OSM standard we really need to have people on the ground, and we have a problem, there was a study done into [Who Maps in OpenStreetMap and Why?](SOTM 2010 Talk  Who Maps in OpenStreetMap and Why?)
 
@@ -202,12 +197,19 @@ We also know that [more people looking at area's improved accuracy.](http://pove
 
 So for the best freshest map we need people on the ground, in Moray and Dumfries and across Scotland.
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide30.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide30/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide30.jpg)
 
 The OSM website shows 30 mappers within 1km of me in Edinburgh, yet we have huge area's of Scotland with no one.
 
 The big challenge for OSM in Scotland is to get people across the country looking after there street, town and village in Scotland adding the details and seeing what has changed.
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/Slide32.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide32/)
+![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide32.jpg)
 
-[photo: http://www.flickr.com/photos/mvjantzen/5028611938/sizes/l/in/photostream/](http://www.flickr.com/photos/mvjantzen/5028611938/sizes/l/in/photostream/ )
+#### Photo Credits ####
+
+* [photo: http://www.flickr.com/photos/johnmueller/52621490/](Image from: http://www.flickr.com/photos/johnmueller/52621490/ )
+* <http://farm6.static.flickr.com/5081/5237521828_536640e421_o.jpg>
+* [photo: http://www.flickr.com/photos/sunfrog1/307110936/]( http://www.flickr.com/photos/sunfrog1/307110936/ )
+* [Photo: http://www.flickr.com/photos/67155762@N00/3388293945/]( http://www.flickr.com/photos/67155762@N00/3388293945/)
+* photo: <http://farm5.static.flickr.com/4041/4441209986_29ecf7f7b7_o.jpg>
+* [photo: http://www.flickr.com/photos/mvjantzen/5028611938/sizes/l/in/photostream/]( http://www.flickr.com/photos/mvjantzen/5028611938/sizes/l/in/photostream/ )

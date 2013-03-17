@@ -9,7 +9,7 @@ categories:
 - Family
 ---
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2011/09/scan_anom.jpg)](http://www.chrisfleming.org/family-2/is-the-baby-ready-yet/attachment/scan_anom/)
+![](/post-assets/2011-09-19-is-the-baby-ready-yet/scan_anom.jpg)
 
 The baby is now much bigger than when this scan was done... and some folks I work with requested a dashboard. So the answer all your questions is at [http://isthebabyreadyyet.chrisfleming.org/](http://isthebabyreadyyet.chrisfleming.org)
 
