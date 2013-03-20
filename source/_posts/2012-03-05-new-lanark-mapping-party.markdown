@@ -15,9 +15,7 @@ New Lanark itself, is a World Heritage Site was originally founded in 1786 as Co
 
 The area either side of the cycle is the Scottish Wildlife Trust's [Falls of Clyde a nature reserve](http://scottishwildlifetrust.org.uk/reserve/falls-of-clyde/)
 
-
-
-[caption id="attachment_431" align="alignnone" width="701" caption="Map data © OpenStreetMap contributors, CC BY-SA"][![](http://www.chrisfleming.org/wp/wp-content/uploads/2012/03/map2.png)](http://osm.org/go/evck7pWL)[/caption]
+{% imgcap /post-assets/2012-03-05-new-lanark-mapping-party/map2.png Map data © OpenStreetMap contributors, CC BY-SA %}
 
 The day started with a quick get together, where we choose our slices of the area to map, with Bob and Tim taking the new mappers around the village and because the mapping party was sponsored by [The Central Scotland Green Network Community Fund](http://www.centralscotlandgreennetwork.org/)  I picked a green area with other side of the Clyde, without quite realising how far it was to get to a bridge to cross....
 
@@ -43,12 +41,11 @@ and closed roads, which [Dair](http://refnum.com/) - seen running out had alread
 
 In all we covered 11km of mostly footpaths, I was glad of the lack of tree cover at the moment which meant that I could vastly improve area's such as this windy downhill:
 
-[![](http://www.chrisfleming.org/wp/wp-content/uploads/2012/03/map-3.png)](http://www.chrisfleming.org/osm/new-lanark-mapping-party/attachment/map-3-2/)
+![](/post-assets/2012-03-05-new-lanark-mapping-party/map-3.png)
 
 and some more urban mapping:
 
 [![House Number](http://farm8.staticflickr.com/7188/6952382307_265b09b099_m.jpg)](http://www.flickr.com/photos/61663261@N00/6952382307/)[![Street Sign](http://farm8.staticflickr.com/7065/6806268122_e27cc948ff_m.jpg)](http://www.flickr.com/photos/61663261@N00/6806268122/)
-
 
 
 By the time we got back, we had missed lunch but it was good to see everyone busy processing the afternoon's work:
@@ -59,6 +56,6 @@ By the time we got back, we had missed lunch but it was good to see everyone bus
 
 In all it was a great success, and a huge thanks go to Tim for doing the hard work of organising the day, sponsorship, venue and publicising the event. There is a [mapping workshop in Glasgow](http://wiki.openstreetmap.org/wiki/Workshop/Glasgow2012) on the 17 March and our next social meetup is on the [20th March in Edinburgh.](http://wiki.openstreetmap.org/wiki/Edinburgh#Upcoming_Pub_Meetings)
 
-Have a look at the map [here](http://osm.org/go/evcmQfTP).
+Have a look at the [finished map.](http://osm.org/go/evcmQfTP).
 
 
