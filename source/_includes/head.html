@@ -24,9 +24,12 @@
   {% endcss_asset_tag %}
   <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{site.title}}" type="application/atom+xml">
   {% javascript_asset_tag global %}
-  - /_assets/javascripts/modernizr-2.0.js
   - /_assets/javascripts/libs/jquery.min.js
+  - /_assets/javascripts/libs/jXHR.js
+  - /_assets/javascripts/libs/swfobject-dynamic.js
+  - /_assets/javascripts/modernizr-2.0.js
   - /_assets/javascripts/octopress.js
+  - /_assets/javascripts/github.js
   {% endjavascript_asset_tag %}
   {% include custom/head.html %}
   {% include google_analytics.html %}
