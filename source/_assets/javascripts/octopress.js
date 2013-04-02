@@ -102,9 +102,9 @@ function wrapFlashVideos() {
     }
   });
   $('iframe[src*=vimeo],iframe[src*=youtube]').each(function(iframe) {
-    iframe = $(iframe);
-    var wrapper = iframe.before('<div class="flash-video"><div>').previous();
-    $(wrapper).children().append(iframe);
+    //iframe = $(iframe);
+    //var wrapper = iframe.before('<div class="flash-video"><div>').previous();
+    //$(wrapper).children().append(iframe);
   });
 }
 

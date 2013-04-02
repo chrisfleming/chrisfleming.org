@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://chrisfleming.org/
+url: http://chrisfleming.org
 title: chrisfleming.org
 subtitle: my home
 author: Chris Fleming
@@ -33,7 +33,7 @@ source: source
 destination: public
 plugins: plugins
 code_dir: downloads/code
-category_dir: blog/categories
+category_dir: /categories
 markdown: kramdown
 pygments: false # default python pygments have been replaced by pygments.rb
 
