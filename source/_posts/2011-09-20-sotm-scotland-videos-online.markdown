@@ -13,7 +13,12 @@ tags:
 - sotmscot
 ---
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/xpYPuaf0HYc" frameborder="0" allowfullscreen></iframe>
+<div class="flash-video">
+<div>
+<iframe width="640" height="360" src="http://www.youtube.com/embed/xpYPuaf0HYc?feature=player_detailpage" frameborder="0" allowfullscreen>
+</div>
+</div>
+
 
 As well as [Bob](http://www.openstreetmap.org/user/Central%20America) doing an introduction to [OSM](http://www.openstreetmap.org) (above), all the video's from the conference, including
 [my talk](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/)
