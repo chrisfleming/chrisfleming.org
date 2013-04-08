@@ -63,6 +63,41 @@ module Jekyll
       old_write(dest)
       post_write if respond_to?(:post_write)
     end
+
+    # The generated relative url of this post.
+    # e.g. /2008/11/05/my-awesome-post.html
+    #
+    # Returns the String URL.
+    def url
+      return @url if @url
+
+
+      #"categories" => categories.map { |c| URI.escape(c.to_s) }.join('/'),
+      url = if permalink
+        permalink
+      else
+        {
+          "year" => date.strftime("%Y"),
+          "month" => date.strftime("%m"),
+          "day" => date.strftime("%d"),
+          "title" => CGI.escape(slug),
+          "i_day" => date.strftime("%d").to_i.to_s,
+          "i_month" => date.strftime("%m").to_i.to_s,
+          "categories" => URI.escape(categories[0].to_s),
+          "short_month" => date.strftime("%b"),
+          "y_day" => date.strftime("%j"),
+          "output_ext" => self.output_ext
+        }.inject(template) { |result, token|
+          result.gsub(/:#{Regexp.escape token.first}/, token.last)
+        }.gsub(/\/\//, "/")
+      end
+
+      # sanitize url
+      @url = url.split('/').reject{ |part| part =~ /^\.+$/ }.join('/')
+      @url += "/" if url =~ /\/$/
+      @url
+    end
+
   end
 
   # Monkey patch for the Jekyll Page class. For the original class,
