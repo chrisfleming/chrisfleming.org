@@ -17,10 +17,9 @@ We used the zoo's own map to create a cake and each took an area to map.
 
 I had picked the top of the hill to the North East, which included the Big Cats:
 
+{% imgcap http://www.chrisfleming.org/gallery2/d/8068-4/img_6037.jpg Warning these Animals are Dangerous %}(http://www.chrisfleming.org/gallery2/v/OSM/EdinburghZoo/img_6037.jpg.html)
 
-[{% imgcap http://www.chrisfleming.org/gallery2/d/8068-4/img_6037.jpg Warning these Animals are Dangerous %}(http://www.chrisfleming.org/gallery2/v/OSM/EdinburghZoo/img_6037.jpg.html)
-
-[![](http://www.chrisfleming.org/gallery2/d/8072-4/img_6040+_Modified_.jpg)](http://www.chrisfleming.org/gallery2/v/OSM/EdinburghZoo/img_6040+_Modified_.jpg.html)
+[![](http://www.chrisfleming.org/gallery2/d/8072-4/img_6040+_Modified_.jpg)](http://www.chrisfleming.org/gallery2/v/OSM/EdinburghZoo/img_6040+_Modified_.jpg.html)]
 
 Overall the area division worked well, we did have some overlap but largely deliberate and partly to explore the rest of the zoo :)
 

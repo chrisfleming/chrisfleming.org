@@ -77,15 +77,13 @@ While we're on styles, we can't ignore the continuous improvement's to the OSM "
 
 The cycle map style:
 
-![OpenStreetMap, cyclemap style, low zoom showing lots of scotland](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.013.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-2013-the-state-of-scotland/attachment/main_presentation-013/)
+![OpenStreetMap, cyclemap style, low zoom showing lots of scotland](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.013.jpg)]
 
 public transport style:
-
-![OSM Website, public transport style, centered on Glasgow.](post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.014.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-2013-the-state-of-scotland/attachment/main_presentation-014/)
+![OSM Website, public transport style, centered on Glasgow.](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.014.jpg)]
 
 and mapquest style
-
-![Openstreetmap website, showing mapquest style centered on Glasgow](post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.015.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-2013-the-state-of-scotland/attachment/main_presentation-015/)
+![Openstreetmap website, showing mapquest style centered on Glasgow](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.015.jpg)]
 
 again [mapquest open](http://open.mapquest.co.uk/) provides a great example of a complete web mapping site, with search and routing. So provides a potential OSM powered  google maps replacement.
 
@@ -94,7 +92,7 @@ again [mapquest open](http://open.mapquest.co.uk/) provides a great example of 
 So last year we did a comparison between the OS Locator dataset and OSM using the ITO Analysis tool, by region. I've added this years data into the table.
 
 
-|-------------------+-------------+------------+-----------+-----------+------------+-------------------┐
+|-------------------+-------------+------------+-----------+-----------+------------+-------------------|
 | Place             | 2012        | OS Locator |      2012 | “Missing” | 2012 Roads | 11 to 12 change   |
 |                   | position    |            |           |           |            |                   |
 |-------------------+-------------+------------+-----------+-----------+------------+-------------------|
@@ -210,9 +208,9 @@ Interestingly in the few days since I gave this presentation, some of these have
 
 Anyway, we have evidence that OS Locator data can't always be relied upon.
 
-![How accurate is OS data? In Edinburgh 2.2% of names don't match, in Glasgow 1.4% of names don't match. Worst case in the UK, in King's Lynn and West Norfolkm 7.4% don't match.](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.027.jpg)](http://www.chrisfleming.org/osm/state-of-the-map-scotland-2013-the-state-of-scotland/attachment/main_presentation-027/)
+![How accurate is OS data? In Edinburgh 2.2% of names don't match, in Glasgow 1.4% of names don't match. Worst case in the UK, in King's Lynn and West Norfolkm 7.4% don't match.](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.027.jpg)
 
-Already in Edinburgh 2.2% of  roads in Edinburgh do not match what OS Locator shows.
+Already in Edinburgh 2.2% of roads in Edinburgh do not match what OS Locator shows.
 
 Glasgow, 1.4 % and looking at one of the other places at 100%, Kings's Lynn shows 7.4% out. This is really a warning, we should be using this as a datasource to help us know where to map, but this data cannot be relied upon.
 
@@ -273,19 +271,19 @@ I also ran this against a dump from before the licence change, and we have grown
 
 What's in a name?
 
-![36 660 named nodes and 134 724 named ways](post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.0381.jpg)
+![36 660 named nodes and 134 724 named ways](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.0381.jpg)
 
 We have 36 660 named nodes and 134 724 named ways.
 
 Place?
 
-![6807 Names Places](post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.0391.jpg)
+![6807 Names Places](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.0391.jpg)
 
 6807 of these are places, from Cities down to Hamlets and localities.
 
 So how long are the ways:
 
-![](post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.040.jpg)
+![](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.040.jpg)
 The table above lists the top 20 way types by length.
 
 The total, motorway length in OSM shows as 827km compares well with the total motorway length in wikipedia (once I remembered that OSM will have ways for both directions)
@@ -298,21 +296,21 @@ We have 53 km of steps, I wouldn't want to climb those all at once.
 
 There is also the longtail of the list:
 
-![](post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.041.jpg)
+![](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.041.jpg)
 
 Somewhere we have 30m of broken bridge (not the one pictured), 10 km of racing track and 1 099m of train platforms.
 
 all made possible by OSM's flexable tagging system:
 
-![](post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.042.jpg)
+![](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.042.jpg)
 
 and the 1776 users who have contributed!
 
-![List of *all* contributors in Scotland](post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.0431.jpg)
+![List of *all* contributors in Scotland](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.0431.jpg)
 
 Last year I asked the question.
 
-![How do we extend the community?](post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.044.jpg)
+![How do we extend the community?](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.044.jpg)
 
 I still don't think we have a really good answer to that question, but whatever we do, we must Tell People.
 
@@ -320,7 +318,7 @@ I still don't think we have a really good answer to that question, but whatever 
 
 It's the only way of improving the map.
 
-![Thank you. Follow me @chrisfl on twitter or @OSMScotland](post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.046.jpg)
+![Thank you. Follow me @chrisfl on twitter or @OSMScotland](/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.046.jpg)
 
 
 

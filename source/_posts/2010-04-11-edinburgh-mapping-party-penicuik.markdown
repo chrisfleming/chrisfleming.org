@@ -12,14 +12,17 @@ categories:
 
 [](http://www.chrisfleming.org/osm/edinburgh-mapping-party-penicuik/attachment/screenshot_016/)[![View to the Pentlands.](http://farm3.static.flickr.com/2272/4512365680_c76b496195_b.jpg)](http://www.flickr.com/photos/61663261@N00/4512365680/)
 
-So we had the first of what will hopefully be a series of many Scottish mapping parties on Saturday, the idea is to pick somewhere which is reasonably accessible and still in need of mapping and get together and spend some time filling in some of the big gaps outside of the city.
+So we had the first of what will hopefully be a series of many Scottish mapping parties on Saturday, the idea is to pick somewhere which is reasonably accessible and still in need of mapping 
+and get together and spend some time filling in some of the big gaps outside of the city.
 
 There was enough of an outline of the roads to divide the town up into sectors and we headed off on bicycles and in cars to cover the town.
 
-We meet back for lunch at the [Peni Deli](http://www.openstreetmap.org/browse/node/693525734) where we were able to compare our tracks on my eeePC, although my gpsbabel kung-fu failed me and I only managed to pull waypoints and not the full tracks from the Garmin. However it was still a valuable tool to see who had managed to cover what area's, and importantly what was left to be covered.
+We meet back for lunch at the [Peni Deli](http://www.openstreetmap.org/browse/node/693525734) where we 
+were able to compare our tracks on my eeePC, although my gpsbabel kung-fu failed me and I only managed to pull 
+waypoints and not the full tracks from the Garmin. However it was still a valuable tool to see who had managed to cover what area's, and importantly what was left to be covered.
 
 
-[![](/post-assets/2010-04-11-edinburgh-mapping-party-penicuik/screenshot_016.png )
+![](/post-assets/2010-04-11-edinburgh-mapping-party-penicuik/screenshot_016.png )
 
 We then split up to cover some of the area's left, to map in the afternoon. I think that we may have got things slightly wrong here as we ended up with some duplication in terms of the area's covered; however this isn't necessary a bad thing as it has meant that some area's have ended up much better than if a single person would have covered them.
 
