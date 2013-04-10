@@ -6,8 +6,8 @@ slug: weekend-away-peaks
 title: Weekend Away in the Peaks
 wordpress_id: 266
 categories:
-- OpenStreetMap
 - Photos
+- OpenStreetMap
 ---
 
 [{% imgcap http://farm5.static.flickr.com/4031/4385214459_b58f6e0842_b.jpg Finding the Way %}](http://farm5.static.flickr.com/4031/4385214459_b58f6e0842_b.jpg)
