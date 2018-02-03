@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: airport | chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress/tags/airport/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Days getting shorter.]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/days-getting-shorter/"/>
+    <updated>2007-12-03T18:37:47+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/days-getting-shorter</id>
+    <content type="html"><![CDATA[<p><a href="http://www.chrisfleming.org/gallery2/d/6618-2/Edinburgh_Airport_Sunset.jpg"><img src="http://www.chrisfleming.org/gallery2/d/6618-2/Edinburgh_Airport_Sunset.jpg" alt="" /></a></p>
+]]></content>
+  </entry>
+  
+</feed>

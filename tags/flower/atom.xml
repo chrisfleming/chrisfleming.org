@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: flower | chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress/tags/flower/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Spring has arrived]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/spring-has-arrived/"/>
+    <updated>2007-03-25T00:24:37+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/spring-has-arrived</id>
+    <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/chrisfleming/432940116/"><img src="http://farm1.static.flickr.com/185/432940116_52bed109a7.jpg" alt="First Blossom Of Spring" /></a></p>
+
+<p>We went on a cycle ride around town today in the Sunshine and Rachel spotted the blossoms on this tree. I definitely feel that spring is in the air, especially as we’ll start to get more sunshine in the evenings when the clocks go forward tonight</p>
+]]></content>
+  </entry>
+  
+</feed>

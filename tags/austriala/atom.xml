@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: austriala | chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress/tags/austriala/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sunset down under.]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/sunset-down-under/"/>
+    <updated>2007-05-27T15:30:27+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/sunset-down-under</id>
+    <content type="html"><![CDATA[<p><a href="/post-assets/2007-05-27-sunset-down-under/rollercoaster_800.JPG"><img src="/post-assets/2007-05-27-sunset-down-under/rollercoaster_800.JPG" alt="" /></a></p>
+
+<p>We made it out the office early enough on Saturday evening to catch the sun going down on the beach. This is the wooden rollercoaster at <a href="http://www.lunapark.com.au/">Luna Park.</a></p>
+]]></content>
+  </entry>
+  
+</feed>

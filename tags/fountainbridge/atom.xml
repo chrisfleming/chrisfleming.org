@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: fountainbridge | chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress/tags/fountainbridge/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sunset Over the Forth and Union Canal]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/sunset-over-the-forth-and-union-canal/"/>
+    <updated>2007-03-09T20:18:27+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/sunset-over-the-forth-and-union-canal</id>
+    <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/chrisfleming/415765671/"><img src="http://farm1.static.flickr.com/124/415765671_9e86d70538.jpg" alt="" />
+Sunset over the Forth and Union Canal</a>
+This was taken from the Lemmington Lift Bridge, looking West.
+I caught the sun setting over the canal, I love the contrast of angular lines of the soon to be demolished brewery on the right and the raggard roof lines of the flats on the left.</p>
+]]></content>
+  </entry>
+  
+</feed>

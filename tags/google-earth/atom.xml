@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: google earth | chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress/tags/google-earth/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Google Earth Finally does Edinburgh...]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Geo/google-earth-finally-does-edinburgh/"/>
+    <updated>2006-12-17T16:12:45+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Geo/google-earth-finally-does-edinburgh</id>
+    <content type="html"><![CDATA[<p>I’ve just noticed that Google have finally got round to updating the Google Earth imagery for Edinburgh. It’s about time to as the
+<a href="http://maps.live.com/default.aspx?v=2&amp;cp=55.946725~-3.193932&amp;style=a&amp;lvl=14&amp;tilt=-90&amp;dir=0&amp;alt=-1000">Microsoft</a> 
+and <a href="http://maps.yahoo.com/#mvt=s&amp;trf=0&amp;lon=-3.192129&amp;lat=55.945223&amp;mag=3">Yahoo</a> aerial imagery have covered Edinburgh for some time now.</p>
+
+<p>It looks to me like the images of Edinburgh were captured  in August last year, the level of detail is very impressive. 
+A few nice things to point out here are, sitting on the Meadows we can see the big top circus tent and fairground used over the festival.
+[<img src="/post-assets/2006-12-17-google-earth-finally-does-edinburgh/fairground_meadows.jpg" alt="" />]/post-assets/2006-12-17-google-earth-finally-does-edinburgh/fairground_meadows.jpg)</p>
+
+<p>Also of interest is the aerial view of of the <a href="http://www.qmile.com/">Quartermile</a> development. We can see how much of the area has been 
+demolished and how much the area still has to be developed.</p>
+
+<p><a href="/post-assets/2006-12-17-google-earth-finally-does-edinburgh/quarterMile.jpg"><img src="/post-assets/2006-12-17-google-earth-finally-does-edinburgh/quarterMile.jpg" alt="" /></a></p>
+
+<p>The winding areas of the castle is also well worth a look. The bandstands put up for the <a href="http://www.edintattoo.co.uk/">Edinburgh  Tattoo</a>
+is in evidence on the esplanade.</p>
+
+<p><a href="/post-assets/2006-12-17-google-earth-finally-does-edinburgh/castle.jpg"><img src="/post-assets/2006-12-17-google-earth-finally-does-edinburgh/castle.jpg" alt="" /></a></p>
+
+<p>To open these files in Google Earth use these kml files: <a href="/post-assets/2006-12-17-google-earth-finally-does-edinburgh/EdinburghCastle.kmz">EdinburghCastle.kmz</a>,
+<a href="/post-assets/2006-12-17-google-earth-finally-does-edinburgh/Quartermile_Edinburgh.kmz">Quartermile_Edinburgh.kmz</a>,
+<a href="/post-assets/2006-12-17-google-earth-finally-does-edinburgh/FairgroundonMeadows.kmz">FairgroundonMeadows.kmz</a></p>
+]]></content>
+  </entry>
+  
+</feed>

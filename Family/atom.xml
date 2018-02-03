@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Family | chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress//Family/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Is the baby ready yet?]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Family/is-the-baby-ready-yet/"/>
+    <updated>2011-09-19T14:42:19+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Family/is-the-baby-ready-yet</id>
+    <content type="html"><![CDATA[<p><img src="/post-assets/2011-09-19-is-the-baby-ready-yet/scan_anom.jpg" alt="" /></p>
+
+<p>The baby is now much bigger than when this scan was done… and some folks I work with requested a dashboard. So the answer all your questions is at <a href="http://isthebabyreadyyet.chrisfleming.org">http://isthebabyreadyyet.chrisfleming.org/</a></p>
+
+<p>I’m not sure how much time I’ll actually have to keep this up to date, but there will be some updates.</p>
+
+<p>The source (a horrid mix of html, css and javascript) is <a href="https://github.com/chrisfleming/IS-The-baby-ready-yet-">available on github.</a></p>
+]]></content>
+  </entry>
+  
+</feed>

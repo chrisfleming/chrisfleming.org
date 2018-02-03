@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: ducks | chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress/tags/ducks/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A Cold day.]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/a-cold-day/"/>
+    <updated>2008-01-13T13:19:52+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/a-cold-day</id>
+    <content type="html"><![CDATA[<p><a href="http://farm3.static.flickr.com/2040/2187948846_a2f39b37e4_b.jpg"><span class='caption-wrapper'><img class='caption' src='http://farm3.static.flickr.com/2040/2187948846_a2f39b37e4_b.jpg' width='' height='' alt='The shadow looks almost 3D in the ice.' title='The shadow looks almost 3D in the ice.'><span class='caption-text'>The shadow looks almost 3D in the ice.</span></span></a></p>
+
+<p><a href="http://farm3.static.flickr.com/2137/2188825963_fa352ac472_b.jpg"><span class='caption-wrapper'><img class='caption' src='http://farm3.static.flickr.com/2137/2188825963_fa352ac472_b.jpg' width='' height='' alt='The view from the front' title='The view from the front'><span class='caption-text'>The view from the front</span></span></a></p>
+
+<p>I took these pictures at the Lochrin basin at the end of the union canal. The sun was just warm enough to melt the ice, but anything in the shade remained icy. Full size versions are available on <a href="http://www.flickr.com/photos/chrisfleming/2187948846/in/photostream/">Flickr</a></p>
+]]></content>
+  </entry>
+  
+</feed>

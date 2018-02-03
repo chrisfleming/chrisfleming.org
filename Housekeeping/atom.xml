@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Housekeeping | chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress//Housekeeping/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Switch to Octopress]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Housekeeping/switch-to-octopress/"/>
+    <updated>2013-04-08T23:42:00+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Housekeeping/switch-to-octopress</id>
+    <content type="html"><![CDATA[<p>So almost as often as I post, I rewrite the site. This time I have switched it to <a href="http://octopress.org">Octopress</a>. This is the 3rd blogging engine, I’ve used </p>
+
+<p><span class='caption-wrapper'><img class='caption' src='/post-assets/2010-01-21-new-year-new-blog-probably-the-same-old-story/website_before.png' width='' height='' alt='Serendipity Site' title='Serendipity Site'><span class='caption-text'>Serendipity Site</span></span>
+<span class='caption-wrapper'><img class='caption' src='/post-assets/2010-01-21-new-year-new-blog-probably-the-same-old-story/website_new.png' width='' height='' alt='Wordpress Site' title='Wordpress Site'><span class='caption-text'>Wordpress Site</span></span>
+<span class='caption-wrapper'><img class='caption' src='/post-assets/2013-04-08-switch-to-octopress/site_screenshot_octopress_310.jpg' width='' height='' alt='Octopress Site' title='Octopress Site'><span class='caption-text'>Octopress Site</span></span></p>
+
+<p>I don’t get enough hits to justify the performance need of a static site, but it has the advantage of being one less wordpress site to maintain, and for me writting posts using 
+markdown in vim is a definite win.</p>
+
+<p>I have also taken the oportunity to switch to a small cluster I’ve setup using <a href="http://bigv.io/">ByteMark’s BigV</a></p>
+
+<p>Also a change, the <a href="https://github.com/chrisfleming/octopress">code for this site</a> is all on github. The <a href="https://github.com/chrisfleming/octopress/commits/master">commit history</a> 
+provides a nice history of the work and changes I’ve made to the standard Octopress site. This is largely in area’s of the category handling, and removing the banner. I may base some future posts on this.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Year. New Blog. Probably the same old story.]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Housekeeping/new-year-new-blog-probably-the-same-old-story/"/>
+    <updated>2010-01-21T21:43:17+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Housekeeping/new-year-new-blog-probably-the-same-old-story</id>
+    <content type="html"><![CDATA[<p>[<span class='caption-wrapper'><img class='caption' src='http://farm3.static.flickr.com/2745/4252176094<em>94603bf340_b.jpg' width='' height='' alt='New Year New Starter' title='New Year New Starter'><span class='caption-text'>New Year New Starter</span></span>](http://farm3.static.flickr.com/2745/4252176094</em>94603bf340_b.jpg)</p>
+
+<p>So here I am again. I’ve switch the blog from <a href="http://www.s9y.org/">serendipity</a> to <a href="http://wordpress.org/">wordpress</a>.
+Despite the possible security issues with  wordpress, I’ve a number of wordpress blogs and I have a script which should 
+help me keep them all up to date using svn.</p>
+
+<p>In addition, I’m in the process of moving my hosting from <a href="http://www.gradwell.com/">gradwell</a> to a Virtual Machine hosted by 
+<a href="http://www.bytemark.co.uk/">bytemark</a> partly because it will be cheaper for me and also because I was finding it hard
+getting support questions answered by  gradwell. This also means that at low volumes the response time from a dedicated
+server is much faster than from shared hosting. With the rollout of google’s new Caffeine infrastructure it’s likely that 
+<a href="http://googlewebmastercentral.blogspot.com/2010/01/state-of-index-2009.html">speed will become a factor in the search results</a>.</p>
+
+<p>So I’ve also built a new template for the site. It’s basically a cut down hacked around version of the standard wordpress
+<a href="http://binarybonsai.com/wordpress/kubrick/">kubrik template</a>. From the previous site I’ve cut down on the use of colour
+and I’ve dropped headers entirely and kept a single sidebar. There are lots of tweaks that still need to be applied.</p>
+
+<p><span class='caption-wrapper'><img class='caption' src='/post-assets/2010-01-21-new-year-new-blog-probably-the-same-old-story/website_before.png' width='' height='' alt='Before' title='Before'><span class='caption-text'>Before</span></span></p>
+
+<p><span class='caption-wrapper'><img class='caption' src='/post-assets/2010-01-21-new-year-new-blog-probably-the-same-old-story/website_new.png' width='' height='' alt='After' title='After'><span class='caption-text'>After</span></span></p>
+
+<p>So, I’m hoping to provide regular updates on my usual activities… Progress on the bread making front, 
+<a href="http://www.flickr.com/photos/chrisfleming">photography</a>, 
+<a href="http://www.openstreetmap.org/">OpenStreetMap</a>, 
+<a href="http://www.bedlamites.co.uk/">Bedlamites</a> and whatever else comes up :)
+In reality I probably won’t end up doing anything for another 3 months.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Yet another, cms weblog....]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Housekeeping/yet-another-cms-weblog/"/>
+    <updated>2006-07-30T01:00:29+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Housekeeping/yet-another-cms-weblog</id>
+    <content type="html"><![CDATA[<p>I’ve been playing with trying out a new weblog system. This is using <a href="http://www.sy9.org/">serendipity</a>, and it looks like a good simple system for this kind of thing. It also, may work well with <a href="http://www.flickr.com/photos/chrisfleming/">flickr</a> and <a href="http://www.chrisfleming.org/gallery2/">gallery</a> and stuff.</p>
+]]></content>
+  </entry>
+  
+</feed>

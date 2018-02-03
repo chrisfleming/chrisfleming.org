@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: sotmscot | chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress/tags/sotmscot/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[SOTM Scotland Video's online]]></title>
+    <link href="http://chrisfleming.github.com/octopress/OpenStreetMap/sotm-scotland-videos-online/"/>
+    <updated>2011-09-20T14:03:33+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/OpenStreetMap/sotm-scotland-videos-online</id>
+    <content type="html"><![CDATA[<div class="flash-video">
+<div>
+<iframe width="640" height="360" src="http://www.youtube.com/embed/xpYPuaf0HYc?feature=player_detailpage" frameborder="0" allowfullscreen="">
+
+
+
+
+As well as [Bob](http://www.openstreetmap.org/user/Central%20America) doing an introduction to [OSM](http://www.openstreetmap.org) (above), all the video's from the conference, including
+[my talk](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/)
+all now up, at: &lt;http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Scotland_2011#Schedule&gt;
+
+Hopefully I'll get my slides from the other talk I did, on making my festival map (reused from [WhereCamp EU](http://wherecamp.eu/)) online in the next few days.
+
+Finally a big thanks to "the other" Bob from [City Strolls](http://www.citystrolls.com/) for doing the had work of making and editing the video's.
+</iframe></div></div>
+]]></content>
+  </entry>
+  
+</feed>

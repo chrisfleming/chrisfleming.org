@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://chrisfleming.github.com/octopress/sitemap.xml 
+Sitemap: http://chrisfleming.github.com/octopress/gallery/sitemap.xml.gz

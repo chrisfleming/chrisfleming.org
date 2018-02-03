@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: rainbow | chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress/tags/rainbow/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Rainbow from the flat,]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/rainbow-from-the-flat/"/>
+    <updated>2006-09-13T21:21:32+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/rainbow-from-the-flat</id>
+    <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/chrisfleming/242538216/"><img src="http://static.flickr.com/89/242538216_785ec380fe.jpg?v=0" alt="A Rainbow from the flat." /></a>
+A bit of rain and then some sunshine produced <a href="http://www.flickr.com/photos/chrisfleming/242538216/">this</a> rainbow from the flat.</p>
+]]></content>
+  </entry>
+  
+</feed>

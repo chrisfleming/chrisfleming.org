@@ -1,0 +1,2222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[John Muir Way]]></title>
+    <link href="http://chrisfleming.github.com/octopress/OpenStreetMap/john-muir-way/"/>
+    <updated>2014-05-28T23:21:00+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/OpenStreetMap/john-muir-way</id>
+    <content type="html"><![CDATA[<p>So the <a href="http://johnmuirway.org/">John Muir Way</a> has been open since the 21st of April, this long distance route is a Coast to Coast route
+between Helensburgh in the West from where John Muir setoff to the United States where he inspired the 
+conservation movement and the creation of it’s national parks. To Dunbar on the East Coast where he was born
+and grew uo.</p>
+
+<p>We’ve covered most of the route in OpenStreetMap for while. But until recently we’ve had a tiny, gap missing. I was trying
+to figure out getting over to do it when I saw:</p>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p><a href="https://twitter.com/chrisfl">@chrisfl</a> <a href="https://twitter.com/fozy81">@fozy81</a>  to map that gap took 2 trains 1 to Helensburgh a 9 miles walk then train from Balloch. Great day <a href="http://t.co/5GcJ2jp5At">pic.twitter.com/5GcJ2jp5At</a></p>&mdash; Martin McMahon (@mazscot) <a href="https://twitter.com/mazscot/statuses/469358588750999552">May 22, 2014</a></blockquote>
+<script async="" src="http://chrisfleming.github.com/octopress//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>So with some not insignificant effort, we now have the complete route mapped, these can easily be seen by looking at a 
+raw view of either the walking route http://www.openstreetmap.org/relation/49215
+or the cycling route http://www.openstreetmap.org/relation/3619145 on OpenStreetMap, but where OSM comes into it’s own 
+is the ability to actually do things with the data, so to kick things off I’ve created a set of GPX files of the route. </p>
+
+<p>These contain the full walking or cycling route and are suitable to be loaded into your GPS or phone app as aids to navigating the 
+route.</p>
+
+<p>[[ DOWNLOAD HERE ]]</p>
+
+<p>Map wise, as always I’m disapointed to see the otherwise very nice John Muir Way website using google maps rather than an OpenStreetMap 
+based map, </p>
+
+<div id="map" style="width:100%; height:300px; border:0px;">
+
+</div>
+
+<p>There are also tools such as Relation Analyser - http://ra.osmsurround.org/analyzeRelation?relationId=3619145 
+Interestingly this shows cycling distance as 206km and the walking distance as 213km while the route is offically 215 km (I guess they rounded up)</p>
+
+<script type="text/javascript">
+// initialize the map on the "map" div with a given center and zoom
+    var map = new L.Map('map', {
+      center: new L.LatLng(56.01319,-4.68119),
+      zoom: 13
+    });
+
+    // create a new tile layer
+    var tileUrl = 'http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png',
+    layer = new L.TileLayer(tileUrl, {maxZoom: 18});
+
+    // add the layer to the map
+    map.addLayer(layer);
+</script>
+
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="cycling" />
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="osm" />
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="openstreetmap" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Android apps for mapping]]></title>
+    <link href="http://chrisfleming.github.com/octopress/OpenStreetMap/android-apps-for-mapping/"/>
+    <updated>2014-03-28T00:09:00+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/OpenStreetMap/android-apps-for-mapping</id>
+    <content type="html"><![CDATA[<p>So with a <a href="http://attending.io/events/localtivate-mapping-day">mapping party</a>
+coming at the weekend.  I thought that it was about time that I start this
+series of posts that I’ve been planning for a while, so hopefully here is part
+1 Android applications for collecting data.</p>
+
+<h2 id="tracking-osm-tracker"> Tracking, OSM Tracker</h2>
+
+<p>One of the key apps, is something that can track where you are, providing a
+record of where you’ve been and allowing you to upload it to the OpenStreetMap
+website. OSM’s heritage is built around collecting data using a GPS, and it still 
+remains a powerfull way of mapping an area without requiring other sources. And 
+we actually are all carrying a GPS device around with us in our pocket it is
+very easy to do.</p>
+
+<p>I use <a href="https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker">OSM Tracker</a>
+it’s a simple app, and does it well, as well as recording a GPS trail, it also 
+allows you to take pictures, and display the track on a map.</p>
+
+<p>Use is really simple, start a new track:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping/OSMTracker_1.png" alt="" /></p>
+
+<p>Once it is running, it displays the currently GPS Position, shortcuts for taking a picture, and noting various features:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping/OSMTracker_2.png" alt="" /></p>
+
+<p>It is also possible to view the track on a map, this is really useful for checking the current area mapped, and seeing where you’ve been:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping/OSMTracker_3.png" alt="" /></p>
+
+<p>Finally, it’s possible to tag save and upload the track:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping/OSMTracker_4.png" alt="" /></p>
+
+<h2 id="editing-vespucci">Editing, Vespucci</h2>
+
+<p>Editing is generally done as after mapping on a computer, but it can be really helpful to be able to make some changes from your phone, especially once you’re more
+experienced, I would recommend using <a href="https://play.google.com/store/apps/details?id=de.blau.android">Vespucci</a>, 
+Vespucci is getting better and better all the time, and does a really good job editing using the touch interface. This isn’t necessary a beginners tool, 
+but a good tool that continues to improve that’s definitly worth looking at.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping/vespucci_1.png" alt="" /></p>
+
+<p>When you click on the map, it allows you to choose what item you wish to edit, which is a good solution to the problem of never being able to select accurately enough with
+your finger. Geometries can then we tweaked as neccessary.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping/vespucci_3.png" alt="" /></p>
+
+<p>Although I tend to use it to make small changes such as editing tags rather than big edits, it’s a powerfull tool that only gets better.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping/vespucci_2.png" alt="" /></p>
+
+<h2 id="data-gathering">Data Gathering</h2>
+
+<h3 id="accessibilty-wheelmap">Accessibilty, Wheelmap</h3>
+
+<p><a href="https://play.google.com/store/apps/details?id=org.wheelmap.android.online">Wheelmap</a> is a great example of a simple data gathering app.
+The wheelchair app collects accessibilty information as well as some simple addressing information to be displayed on the <a href="http://wheelmap.org/en/">Wheelmap Site</a></p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping/wheelmap_1.png" alt="" />
+<img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping/wheelmap_2.png" alt="" /></p>
+
+<h3 id="addressing-keypadmapper">Addressing, Keypadmapper</h3>
+
+<p>As we have mapped a significant proportion of the road network, there is now a big push to collect addressing data
+<a href="https://play.google.com/store/apps/details?id=de.enaikoon.android.keypadmapper3">Keypadmapper</a> is a simple app to collect addressing data as 
+you move down the road simply enter the numbers as you pass them. Later the address points can be loaded into <a href="https://josm.openstreetmap.de/">JOSM</a> for adding into
+OpenStreetMap.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping/keypadmapper.png" alt="" /></p>
+
+<p>So a quick summary of the apps:</p>
+
+<ul>
+  <li>Tracking: <a href="https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker">OSM Tracker</a></li>
+  <li>Editing: <a href="https://play.google.com/store/apps/details?id=de.blau.android">Vespucci</a></li>
+  <li>Accessibilty: <a href="https://play.google.com/store/apps/details?id=org.wheelmap.android.online">Wheelmap</a></li>
+  <li>Addressing: <a href="https://play.google.com/store/apps/details?id=de.enaikoon.android.keypadmapper3">Keypadmapper</a></li>
+</ul>
+
+<p>Please let me know what I’ve missed in the comments below!</p>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="android" />
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="osm" />
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="openstreetmap" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Android Apps for mapping parties]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Android/android-apps-for-mapping-parties/"/>
+    <updated>2014-03-23T21:09:00+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Android/android-apps-for-mapping-parties</id>
+    <content type="html"><![CDATA[<p>So with a <a href="http://attending.io/events/localtivate-mapping-day">mapping party</a>
+coming up next weekend.  I thought that it was about time that I start this
+series of posts that I’ve been planning for a while, so hopefully here is part
+1. Android Apps </p>
+
+<h2 id="tracking"> Tracking</h2>
+
+<p>One of the key apps, is something that can track where you are, providing a
+record of where you’ve been and allowing you to upload it to the OpenStreetMap
+website.</p>
+
+<p>I use <a href="https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker">OSM Tracker</a>
+it’s a simple app, and does it well, as well as recording a GPS trail, it also 
+allows you to take pictures, and display the track on a map.</p>
+
+<p>Use is really simple, start a new track:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping-parties/OSMTracker_1.png" alt="" /></p>
+
+<p>Once it is running, it displays the currently GPS Position, shortcuts for taking a picture, and noting various features:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping-parties/OSMTracker_2.png" alt="" /></p>
+
+<p>It is also possible to view the track on a map, this is really useful for checking the current area mapped, and seeing where you’ve been:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping-parties/OSMTracker_3.png" alt="" /></p>
+
+<p>Finally, it’s possible to tag save and upload the track:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2014-03-23-android-apps-for-mapping-parties/OSMTracker_4.png" alt="" /></p>
+
+<h2 id="editing">Editing</h2>
+
+<p>Editing is generally done as after mapping on a computer, but it can be really helpful to be able to make some changes from your phone, especially once you’re more
+experiences, I would recommend using <a href="https://play.google.com/store/apps/details?id=de.blau.android">Vespucci</a>, 
+Vespucci is getting better and better all the time, and does a really good job editing using the touch interface. </p>
+
+<p>When you click on the map, it allows you to choose what item you wish to edit, which is a good solution to the problem of never being able to select accuratly enough with
+your finger. Geometries can then we tweaked as neccessary.</p>
+
+<p>Although I tend to use it to make small changes sich as tags rather than big edits.</p>
+
+<h2 id="data-gathering">Data Gathering</h2>
+
+<h3 id="accessibility">Accessibility</h3>
+
+<p>https://play.google.com/store/apps/details?id=org.wheelmap.android.online</p>
+
+<h3 id="addressing">Addressing</h3>
+<p>https://play.google.com/store/apps/details?id=de.enaikoon.android.keypadmapper3</p>
+
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="android" />
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="osm" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Switch to Octopress]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Housekeeping/switch-to-octopress/"/>
+    <updated>2013-04-08T23:42:00+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Housekeeping/switch-to-octopress</id>
+    <content type="html"><![CDATA[<p>So almost as often as I post, I rewrite the site. This time I have switched it to <a href="http://octopress.org">Octopress</a>. This is the 3rd blogging engine, I’ve used </p>
+
+<p><span class="caption-wrapper"><img class="caption" src="http://chrisfleming.github.com/octopress/post-assets/2010-01-21-new-year-new-blog-probably-the-same-old-story/website_before.png" width="" height="" alt="Serendipity Site" title="Serendipity Site" /><span class="caption-text">Serendipity Site</span></span>
+<span class="caption-wrapper"><img class="caption" src="http://chrisfleming.github.com/octopress/post-assets/2010-01-21-new-year-new-blog-probably-the-same-old-story/website_new.png" width="" height="" alt="Wordpress Site" title="Wordpress Site" /><span class="caption-text">Wordpress Site</span></span>
+<span class="caption-wrapper"><img class="caption" src="http://chrisfleming.github.com/octopress/post-assets/2013-04-08-switch-to-octopress/site_screenshot_octopress_310.jpg" width="" height="" alt="Octopress Site" title="Octopress Site" /><span class="caption-text">Octopress Site</span></span></p>
+
+<p>I don’t get enough hits to justify the performance need of a static site, but it has the advantage of being one less wordpress site to maintain, and for me writting posts using 
+markdown in vim is a definite win.</p>
+
+<p>I have also taken the oportunity to switch to a small cluster I’ve setup using <a href="http://bigv.io/">ByteMark’s BigV</a></p>
+
+<p>Also a change, the <a href="https://github.com/chrisfleming/octopress">code for this site</a> is all on github. The <a href="https://github.com/chrisfleming/octopress/commits/master">commit history</a> 
+provides a nice history of the work and changes I’ve made to the standard Octopress site. This is largely in area’s of the category handling, and removing the banner. I may base some future posts on this.</p>
+
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="housekeeping" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[OSM Talk for Esk Valley Rotary Club ]]></title>
+    <link href="http://chrisfleming.github.com/octopress/OpenStreetMap/osm-talk-for-esk-valley-rotary-club/"/>
+    <updated>2013-01-18T00:34:59+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/OpenStreetMap/osm-talk-for-esk-valley-rotary-club</id>
+    <content type="html"><![CDATA[<p><img src="http://chrisfleming.github.com/octopress/post-assets/2013-01-18-osm-talk-for-esk-valley-rotary-club/jan_2013_talk.001.jpg" alt="OpenStreetMap: An Introduction; Rotary Club of Esk Valley, 15 January 2012" /></p>
+
+<p>I had the plesure of doing a talk for the <a href="http://www.rotary-ribi.org/clubs/homepage.php?ClubID=1868">Rotary Club of Esk Valley </a>this Tuesday, the talk was based on the <a href="http://www.chrisfleming.org/osm/state-of-the-map-scotland-2013-the-state-of-scotland/">talk I gave at SoTM Scotland,</a>  with some of the more detailed information removed and some more introductory material added. So this posting is to cover some of the new stuff I covered or at least meant to cover.</p>
+
+<p>I started with an introduction to <a href="http://www.openstreetmap.org/">OpenStreetMap</a> briefly touching on the <a href="http://opendatacommons.org/licenses/odbl/summary/">licencing terms</a> and then lot of examples, such as <a href="http://www.cyclestreets.net/">cyclestreets </a>for cycle planning, <a href="http://blog.foursquare.com/2012/02/29/foursquare-is-joining-the-openstreetmap-movement-say-hi-to-pretty-new-maps/">foursquare</a>, <a href="http://openpistemap.org/?lat=56.8831&amp;lon=-3.4034&amp;zoom=14&amp;layers=BTTTT">ski maps</a>, and not forgetting the <a href="http://osmalba.org/">Gaelic Map</a>.</p>
+
+<p>I then moved on to talk about <a href="http://hot.openstreetmap.org/">HOT</a>’s Humanitarian Work, borrowing lots of material from a <a href="http://www.averillpark.net/OSM/HOT/">previous HOT presentation</a>.</p>
+
+<p>After some talk about quality and contributors, I showed how to create an account and some slides on starting to use potlatch. I moved on to talk about phone apps. The full list for <a href="http://wiki.openstreetmap.org/wiki/Android">Android</a> and <a href="http://wiki.openstreetmap.org/wiki/Apple_iOS">iOS</a> on the OSM wiki is quite intimidating so I wanted to give some specific suggestions to help get people started.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2013-01-18-osm-talk-for-esk-valley-rotary-club/jan_2013_talk.058.jpg" alt="wheelmap.org screenshot" /></p>
+
+<p>Simplest of all and working on both platforms is <a href="http://wheelmap.org/">wheelmap.org</a>Which provides a really simple interface to allow users to add accessibility information to existing places in OSM.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2013-01-18-osm-talk-for-esk-valley-rotary-club/jan_2013_talk.059.jpg" alt="Pushpin App Screenshot" /></p>
+
+<p>To add or edit POI’s on iOS there really is a simple choice, <a href="http://pushpinosm.org/">Pushpin</a> a really nice simple well though out interface.
+<img src="http://chrisfleming.github.com/octopress/post-assets/2013-01-18-osm-talk-for-esk-valley-rotary-club/jan_2013_talk.060.jpg" alt="Vespucci Screenshot" /></p>
+
+<p>On Android, I recommend  <a href="https://play.google.com/store/apps/details?id=de.blau.android">Vespucci</a>, it’s not as simple as pushpin but does allow a lot more to be edited on the go.</p>
+
+<p>For more advanced mapping users may want to <a href="http://wiki.openstreetmap.org/wiki/Beginners_Guide_1.2">collect tracks</a>. For Android I had lots of apps to choose from:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2013-01-18-osm-talk-for-esk-valley-rotary-club/jan_2013_talk.061.jpg" alt="OSM Tracker App" /></p>
+
+<p>and I would recommend<a href="https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker"> OSMtracker</a>, it collects the GPS track and also allows some POI’s to be noted on the go.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2013-01-18-osm-talk-for-esk-valley-rotary-club/jan_2013_talk.062.jpg" alt="OSM4iPhone Screenshot" /></p>
+
+<p>The choice was much more limited on iOS and in the end I couldn’t quickly find a free app, so I find myself recommending <a href="https://itunes.apple.com/gb/app/osmtrack/id295625255?mt=8">OSMTrack</a> which costs a mere 69p as is ideal as it can upload directly into OSM as well as supporting offline data.</p>
+
+<p>and that was it, I had already talked far too long and so it was time to finsh up and go to questions.</p>
+
+<p>We had some good questions, about using <a href="http://wiki.openstreetmap.org/wiki/Education">OSM for teaching</a>, one of the users had already installed wheelmap and was adding information.</p>
+
+<p>Someone also asked if we had Kevock Road, so I took a deep breath and entered it into the search box.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2013-01-18-osm-talk-for-esk-valley-rotary-club/kevlock_road.png" alt="" />
+and I was very happy to find the road was there and we had lots of details around it.</p>
+
+<p>A big thanks to the Club for inviting me out and being such a good audience.</p>
+
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="openstreetmap" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[State of the Map Scotland 2013 - The State of Scotland]]></title>
+    <link href="http://chrisfleming.github.com/octopress/OpenStreetMap/state-of-the-map-scotland-2013-the-state-of-scotland/"/>
+    <updated>2012-10-25T12:37:41+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/OpenStreetMap/state-of-the-map-scotland-2013-the-state-of-scotland</id>
+    <content type="html"><![CDATA[<p>Once again, this year, I had the pleasure of presenting the opening at our now, not so little State of the Map Scotland Conference, which was held at <a href="http://inspace.mediascot.org/">Inspace</a> on the 19th and 20th October 2012.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.001.jpg" alt="The State of Scotland 2012, State of the Map Scotland, Edinburgh, @chrisfl, #sotmscot" /></p>
+
+<p>When I started to write this talk, I wasn’t sure where it was going to end up, I found it interesting and I hope that you do to.</p>
+
+<p>For me one of the most exciting trends, over the last year is seeing OpenStreetMap appearing invarious places:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.002.jpg" alt="2012 started as the year of switch2osm" /></p>
+
+<p>(photo: <a href="http://www.flickr.com/photos/xerones/131963343/">http://www.flickr.com/photos/xerones/131963343/</a>)</p>
+
+<p>the <a href="http://switch2osm.org/">switch2osm</a>, 2012 started with an announcement by <a href="http://www.nestoria.co.uk/">nestoria</a> that they were moving over OSM.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.003.jpg" alt="nestoria website" /></p>
+
+<p><a href="http://blog.nestoria.co.uk/tag/openstreetmap">Triggered  by the ever improving quality of OSM</a>, as well as google looking at charging, it was great to see this long term support switch to using our map.</p>
+
+<p>Another example is is <a href="https://foursquare.com/">foursquare. </a></p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.004.jpg" alt="foursquare website" /></p>
+
+<p>I was amazed when I opened the site at the prominence given to the map on the foursquare homepage. This shouldn’t be a surprise, given the nature of the site but I don’t think  a google map would have  made the landing page here.</p>
+
+<p>It was also interesting to watch the foursquare community, I think overall OSM has gained visibility and exposure from this change (citation needed)</p>
+
+<p>Flickr has  <a href="http://code.flickr.com/blog/2012/07/11/designing-an-osm-map-style/">continued to have some OSM maps</a> and improve those maps, despite a new deal yahoo has to switch to Nokia maps, has <a href="http://code.flickr.com/blog/2012/07/11/designing-an-osm-map-style/">continued to have some OSM maps. </a></p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.005.jpg" alt="iflickr map, showing Beijing" /></p>
+
+<p>I would love to see  OSM as a layer across flickr’s maps, the Nokia maps are a big improvement but are still aimed at car drivers and so still miss lots of places where photo’s might be taken. Hopefully we will see  more OSM on flickr in the future.</p>
+
+<p>Finally as a more personal example of a switch2osm. I switched my parents <a href="http://www.bullfarmoast.co.uk/">B&amp;B in Kent </a> over to use OSM.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.006.jpg" alt="B&amp;B at Bull Farm Oast, map page" /></p>
+
+<p>This change was a little overdue, but for me is a milestone on my journey with OSM, I first discovered OpenStreetMap when I was trying to locate local attractions when I first added a google map to this site, back around 2006.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.007.jpg" alt="Sissinghurst Castle information page." /></p>
+
+<p>I wasn’t surprised by the detail on the <a href="http://www.bullfarmoast.co.uk/attractions/Sissinghurst_Castle">Sissinghurst page</a>, as I mapped this myself.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.008.jpg" alt="Bodiam Castle information page" /></p>
+
+<p>but in fact zoomed in, almost every page such as this one for <a href="http://www.bullfarmoast.co.uk/attractions/Bodiam_Castle">Bodiam Castle</a> has lots of the little bits of detail, such as the moat, ticket office and car park (not shown here).</p>
+
+<p>A lot of this is now possible, because more and more companies are starting to provide services around OSM. As I said last year:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.009.jpg" alt="OSM Database Server" /></p>
+
+<p>Rightly or wrongly <strong>OSM is currently setup largely as a data provider - </strong>so it’s really great to see these other “consumer” facing options and websites appear as the more people see OSM the better our data becomes even if only a ting percentage of these can be converted into mappers. Obviously better information and simpler tools may help to lower the entry barrier in the future.</p>
+
+<p>The biggest recent impact has been from <a href="http://mapbox.com/">mapbox:</a></p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.010.jpg" alt="Mapbox website" /></p>
+
+<p>Also a big shout out to the <a href="http://maps.stamen.com/">Stamen</a> map styles and tiles:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.011.jpg" alt="Black and White map of Glasgow Center" /></p>
+
+<p>such as the toner style above or the acclaimed watercolour style that I used on the first slide.</p>
+
+<p>While we’re on styles, we can’t ignore the continuous improvement’s to the OSM “house” style:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.012.jpg" alt="OpenStreetMap - showing Aberdeen" /></p>
+
+<p>The cycle map style:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.013.jpg" alt="OpenStreetMap, cyclemap style, low zoom showing lots of scotland" />]</p>
+
+<p>public transport style:
+<img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.014.jpg" alt="OSM Website, public transport style, centered on Glasgow." />]</p>
+
+<p>and mapquest style
+<img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.015.jpg" alt="Openstreetmap website, showing mapquest style centered on Glasgow" />]</p>
+
+<p>again <a href="http://open.mapquest.co.uk/">mapquest open</a> provides a great example of a complete web mapping site, with search and routing. So provides a potential OSM powered  google maps replacement.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.016.jpg" alt="So What about the streets" /></p>
+
+<p>So last year we did a comparison between the OS Locator dataset and OSM using the ITO Analysis tool, by region. I’ve added this years data into the table.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Place</th>
+      <th>2012</th>
+      <th>OS Locator</th>
+      <th>2012</th>
+      <th>“Missing”</th>
+      <th>2012 Roads</th>
+      <th>11 to 12 change</th>
+    </tr>
+    <tr>
+      <th> </th>
+      <th>position</th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Edinburgh</td>
+      <td>4</td>
+      <td>4,760</td>
+      <td>4784</td>
+      <td>0</td>
+      <td>9</td>
+      <td>100 -&gt; 99.81</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Midlothian</td>
+      <td>6</td>
+      <td>1,180</td>
+      <td>1193</td>
+      <td>0</td>
+      <td>9</td>
+      <td>100 -&gt; 99.25</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Clackmannanshire</td>
+      <td>1</td>
+      <td>817</td>
+      <td>819</td>
+      <td>5</td>
+      <td>0</td>
+      <td>99.27 -&gt; 100</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>South Lanarkshire</td>
+      <td>5</td>
+      <td>5432</td>
+      <td>5491</td>
+      <td>73</td>
+      <td>34</td>
+      <td>98.55 -&gt; 99.38</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>West  Dunbartonshire</td>
+      <td>9</td>
+      <td>1,233</td>
+      <td>1236</td>
+      <td>18</td>
+      <td>15</td>
+      <td>98.54 -&gt; 98.79</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Shetland Islands</td>
+      <td>8</td>
+      <td>309</td>
+      <td>311</td>
+      <td>6</td>
+      <td>3</td>
+      <td>98.06 -&gt; 99.04</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Stirling</td>
+      <td>12</td>
+      <td>1,361</td>
+      <td>1370</td>
+      <td>29</td>
+      <td>37</td>
+      <td>97.58 -&gt; 97.30</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>East Ayrshire</td>
+      <td>16</td>
+      <td>2039</td>
+      <td>2052</td>
+      <td>50</td>
+      <td>64</td>
+      <td>97.50 -&gt; 96.83</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Glasgow City</td>
+      <td>1</td>
+      <td>6758</td>
+      <td>6761</td>
+      <td>171</td>
+      <td>0</td>
+      <td>97.44 -&gt; 100%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>West Lothian</td>
+      <td>15</td>
+      <td>2030</td>
+      <td>2038</td>
+      <td>48</td>
+      <td>59</td>
+      <td>97.44 -&gt; 96.96%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Inverclyde</td>
+      <td>13</td>
+      <td>1239</td>
+      <td>1240</td>
+      <td>32</td>
+      <td>34</td>
+      <td>97.42 -&gt; 97.26%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Na H Eileanan An Iar</td>
+      <td>10</td>
+      <td>298</td>
+      <td>297</td>
+      <td>5</td>
+      <td>4</td>
+      <td>97.32 -&gt; 98.98%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>East Lothian</td>
+      <td>11</td>
+      <td>1343</td>
+      <td>1353</td>
+      <td>33</td>
+      <td>32</td>
+      <td>97.10 -&gt; 97.19%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>North Ayrshire</td>
+      <td>14</td>
+      <td>2180</td>
+      <td>2189</td>
+      <td>63</td>
+      <td>63</td>
+      <td>97.06 -&gt; 98.08%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Dundee City</td>
+      <td>20</td>
+      <td>2223</td>
+      <td>2229</td>
+      <td>65</td>
+      <td>76</td>
+      <td>97.03 -&gt; 96.55%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Angus</td>
+      <td>18</td>
+      <td>1877</td>
+      <td>1878</td>
+      <td>57</td>
+      <td>59</td>
+      <td>96.91 -&gt; 96.81</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>South Ayrshire</td>
+      <td>22</td>
+      <td>1803</td>
+      <td>1809</td>
+      <td>61</td>
+      <td>69</td>
+      <td>96.45 -&gt; 96.08</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Argyll And Bute</td>
+      <td>21</td>
+      <td>1400</td>
+      <td>1403</td>
+      <td>50</td>
+      <td>48</td>
+      <td>96.43 -&gt; 96.58</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Monmouthshire</td>
+      <td>17</td>
+      <td>1529</td>
+      <td>1538</td>
+      <td>52</td>
+      <td>48</td>
+      <td>96.34 -&gt; 96.81</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Fife</td>
+      <td>23</td>
+      <td>5607</td>
+      <td>5627</td>
+      <td>217</td>
+      <td>228</td>
+      <td>95.93 -&gt; 95.75</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Scottish Borders</td>
+      <td>24</td>
+      <td>1890</td>
+      <td>1902</td>
+      <td>78</td>
+      <td>79</td>
+      <td>95.77 -&gt; 95.74</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>East Renfrewshire</td>
+      <td>27</td>
+      <td>1323</td>
+      <td>1328</td>
+      <td>57</td>
+      <td>60</td>
+      <td>95.62 -&gt; 95.41</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Aberdeen City</td>
+      <td>1</td>
+      <td>2772</td>
+      <td>2774</td>
+      <td>125</td>
+      <td>0</td>
+      <td>95.27 -&gt; 100</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Highland</td>
+      <td>28</td>
+      <td>3443</td>
+      <td>3483</td>
+      <td>535</td>
+      <td>388</td>
+      <td>84.05 -&gt; 88.46</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Aberdeenshire</td>
+      <td>25</td>
+      <td>3886</td>
+      <td>3936</td>
+      <td>626</td>
+      <td>167</td>
+      <td>83.63 -&gt; 95.73</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Renfrewshire</td>
+      <td>26</td>
+      <td>2447</td>
+      <td>1378</td>
+      <td>430</td>
+      <td>60</td>
+      <td>82.18 -&gt; 95.41</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Perth and Kinross</td>
+      <td>19</td>
+      <td>2409</td>
+      <td>2424</td>
+      <td>478</td>
+      <td>79</td>
+      <td>79.91 -&gt; 96.45</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Dumfries And Galloway</td>
+      <td>7</td>
+      <td>2556</td>
+      <td>2580</td>
+      <td>586</td>
+      <td>22</td>
+      <td>76.53 -&gt; 99.15</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Moray</td>
+      <td>29</td>
+      <td>1545</td>
+      <td>1581</td>
+      <td>366</td>
+      <td>226</td>
+      <td>75.92 -&gt; 85.45</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The first thing that struck me as that in both Edinburgh and Midlothian the total number of roads has increased, but we’ve missed some so we’re not longer at 100%.</p>
+
+<p>There have been some fantastic, improvements Glasgow was missing 171 roads last year and these have been accounted for. Dumfries And Galloway was bottom of the list last year and it’s now in 7th, as has Aberdeen City.</p>
+
+<p>There are also some places such as Na H Eileanan An Iar; also known as the Outer Hebredies which are looking quite static.</p>
+
+<p>So what does that all add up to?</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.019.jpg" alt="2011, 4316 Roads Missing from OSM Compared to OS, Scotland was 93% Complete. In 2012, 1972 Roads Missing. Scotland 95% Complete" /></p>
+
+<p>In 2011, we  were shown as having 4316 Roads that hadn’t been accounted for, so 93% match.</p>
+
+<p>When I looked a few days ago, we only  don’t align on 1972 missing roads, or a 95% match.</p>
+
+<p>So what are these missing streets? I started by looking at the 9 roads highlighted in Edinburgh.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.020.jpg" alt="ITO Analysis Map, showing missing new estate road names," /></p>
+
+<p>The first stop are these Roads in <a href="http://www.openstreetmap.org/?lat=55.95985&amp;lon=-3.40179&amp;zoom=17&amp;layers=M">Kirkliston</a>, we seem to have one of these roads, but are missing the name, the other two roads are shown in OSM as under construction as below.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.021.jpg" alt="OSM Map showing &quot;missing streets&quot; as roads under contruction." /></p>
+
+<p>So the conclusion is probably a draw on this one, it looks like neither OS Locator or OSM have the full picture, but a visit is needed.</p>
+
+<p>The next example is around <a href="http://www.openstreetmap.org/?lat=55.944719016552&amp;lon=-3.36523085832596&amp;zoom=17">Edinburgh Airport</a></p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.022.jpg" alt="ITO Analysis Map, OSM shows Almond Avenue and OSM shows Almond Drive" /></p>
+
+<p>OSM Shows Almond Avenue, but OS Locator Almond drive. A visit here will need to take place to confirm who is right.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.023.jpg" alt="ITO Map, showing missing road" /></p>
+
+<p>Again it looks like some new houses here have led to some new developments that we don’t yet have.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.024.jpg" alt="ITO Map, showing new estate" /></p>
+
+<p>This one was quite simple the Lane and the footpath should be joined, so I fixed this myself.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.025.jpg" alt="ITO Map" /></p>
+
+<p>I think that this one is a new development, that needs visiting.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.026.jpg" alt="ITO Map" /></p>
+
+<p>Again this one in Newhaven is probably a new development, that needs visiting.</p>
+
+<p>Interestingly in the few days since I gave this presentation, some of these have been fixed, by changes such as this one: <a href="http://www.openstreetmap.org/browse/changeset/13611107">“Added missing street names from ITO in Kirkliston”</a> and this “<a href="http://www.openstreetmap.org/browse/way/187296573/history">Added initial layout of new housing development in Newburgh, Edinburgh.</a>”. I really hope that these were done with local knowledge especially as adding the through road through Kirkliston doesn’t looks like the kind of road layout that would be permitted as it would allow a rat run through a residential area.</p>
+
+<p>Anyway, we have evidence that OS Locator data can’t always be relied upon.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.027.jpg" alt="How accurate is OS data? In Edinburgh 2.2% of names don't match, in Glasgow 1.4% of names don't match. Worst case in the UK, in King's Lynn and West Norfolkm 7.4% don't match." /></p>
+
+<p>Already in Edinburgh 2.2% of roads in Edinburgh do not match what OS Locator shows.</p>
+
+<p>Glasgow, 1.4 % and looking at one of the other places at 100%, Kings’s Lynn shows 7.4% out. This is really a warning, we should be using this as a datasource to help us know where to map, but this data cannot be relied upon.</p>
+
+<p>Something else was causing me concern, and that was in the Outer Hebrides.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.028.jpg" alt="How are we doing in Remote Places, like the Outer Hebrides" /></p>
+
+<p>It also helps that I’ve holidayed and mapped here (or should it be the other way round) and so have lots of photos :)</p>
+
+<p>There weren’t many changes in 2011 of 298 roads we were missing 5 and in 2012 the total roads is 297 and we’re missing 4.</p>
+
+<p>So first thing, I thought that I would look at the last modification data of a selection of the objects:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.029.jpg" alt="2006, 971, 2007: 10499, 2008: 2967, 2009: 7015, 2010: 61878, 2011: 8698, 2012: 26600" /></p>
+
+<p>This wasn’t quite what I expected, so  far this year there has been <em>a lot</em> of activity.</p>
+
+<p>And so I thought I would break down into months:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.030.jpg" alt="" /></p>
+
+<p>So the basic level is quite small, but with a big peak in June and July.</p>
+
+<p>Looking in detail at June I saw, most of the changes:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.031.jpg" alt="" /></p>
+
+<p>we’re made by a single user, brianboru. I was very happy to see that he had been there and  and some of the information is surveyed on the ground with lots of detailed tracing of terrain, helping to fill in the map, so I thought I would see what else this user was up to?</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.032.jpg" alt="" /></p>
+
+<p>So he’s from Birmingham, and by the looks of things he like I holidayed and did a ton of mapping and tracing whilse on holiday.</p>
+
+<p>But once I ignored the holiday based tracing binges, there is a steady background work by seumas, and looking at his page, I was again very pleased to see that he does live on the Island.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.033.jpg" alt="" /></p>
+
+<p>and busy doing some mapping of shops, pubs, chippies and some paths:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.034.jpg" alt="" /></p>
+
+<p>This was really for me the Golden Road, to be honest I didn’t expect to find a local mapper living on the edge of the country, but here he is.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.035.jpg" alt="" /></p>
+
+<p>So how much data do we have:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.036.jpg" alt="Cat - WHAT DO WE HAVE?" /></p>
+
+<p>Overall the breakdown over Scotland is:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.037.jpg" alt="1.2G of XML, 5 847 127 Nodes, 483 990 Ways, 5086 Relation Compared to before the license change, 5 206 480 Nodes, 451 091 Ways, 4844 Relations" /></p>
+
+<p>]he uncompressed XML weighs in at 1.2G on disk, consisting of nearly 6 million nodes, nearly 500 000 ways and 5000 relations.</p>
+
+<p>I also ran this against a dump from before the licence change, and we have grown significantly since then, by over 600 000 nodes, and  30 000 ways. So we are well above the numbers from before the change, and thanks to the hard work of the community in Scotland to get local mappers on board and also to mitigate against loss I don’t think we had any big problems.</p>
+
+<p>What’s in a name?</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.0381.jpg" alt="36 660 named nodes and 134 724 named ways" /></p>
+
+<p>We have 36 660 named nodes and 134 724 named ways.</p>
+
+<p>Place?</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.0391.jpg" alt="6807 Names Places" /></p>
+
+<p>6807 of these are places, from Cities down to Hamlets and localities.</p>
+
+<p>So how long are the ways:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.040.jpg" alt="" />
+The table above lists the top 20 way types by length.</p>
+
+<p>The total, motorway length in OSM shows as 827km compares well with the total motorway length in wikipedia (once I remembered that OSM will have ways for both directions)</p>
+
+<p>We have 4 226km of paths, I suspefct there are a lot more in Scotland.</p>
+
+<p>We’re up to 1 645 km of cycleway, and additionally cycling is permitted on a further 1000km of footways and paths.</p>
+
+<p>We have 53 km of steps, I wouldn’t want to climb those all at once.</p>
+
+<p>There is also the longtail of the list:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.041.jpg" alt="" /></p>
+
+<p>Somewhere we have 30m of broken bridge (not the one pictured), 10 km of racing track and 1 099m of train platforms.</p>
+
+<p>all made possible by OSM’s flexable tagging system:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.042.jpg" alt="" /></p>
+
+<p>and the 1776 users who have contributed!</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.0431.jpg" alt="List of *all* contributors in Scotland" /></p>
+
+<p>Last year I asked the question.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.044.jpg" alt="How do we extend the community?" /></p>
+
+<p>I still don’t think we have a really good answer to that question, but whatever we do, we must Tell People.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.045.jpg" alt="Tell people, OSM is not like fight club, Tell your sister mother brother, Tell your friends and enemies, Show everyone you meet, Go out your way to tell strangers" /></p>
+
+<p>It’s the only way of improving the map.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.046.jpg" alt="Thank you. Follow me @chrisfl on twitter or @OSMScotland" /></p>
+
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="openstreetmap" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[State of the Map Scotland 2012 - The State of Scotland]]></title>
+    <link href="http://chrisfleming.github.com/octopress/OpenStreetMap/state-of-the-map-scotland-2012-the-state-of-scotland/"/>
+    <updated>2012-10-25T12:37:41+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/OpenStreetMap/state-of-the-map-scotland-2012-the-state-of-scotland</id>
+    <content type="html"><![CDATA[<p>Once again, this year, I had the pleasure of presenting the opening at our now, not so little State of the Map Scotland Conference, which was held at <a href="http://inspace.mediascot.org/">Inspace</a> on the 19th and 20th October 2012.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.001.jpg" alt="The State of Scotland 2012, State of the Map Scotland, Edinburgh, @chrisfl, #sotmscot" /></p>
+
+<p>When I started to write this talk, I wasn’t sure where it was going to end up, I found it interesting and I hope that you do to.</p>
+
+<p>For me one of the most exciting trends, over the last year is seeing OpenStreetMap appearing invarious places:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.002.jpg" alt="2012 started as the year of switch2osm" /></p>
+
+<p>(photo: <a href="http://www.flickr.com/photos/xerones/131963343/">http://www.flickr.com/photos/xerones/131963343/</a>)</p>
+
+<p>the <a href="http://switch2osm.org/">switch2osm</a>, 2012 started with an announcement by <a href="http://www.nestoria.co.uk/">nestoria</a> that they were moving over OSM.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.003.jpg" alt="nestoria website" /></p>
+
+<p><a href="http://blog.nestoria.co.uk/tag/openstreetmap">Triggered  by the ever improving quality of OSM</a>, as well as google looking at charging, it was great to see this long term support switch to using our map.</p>
+
+<p>Another example is is <a href="https://foursquare.com/">foursquare. </a></p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.004.jpg" alt="foursquare website" /></p>
+
+<p>I was amazed when I opened the site at the prominence given to the map on the foursquare homepage. This shouldn’t be a surprise, given the nature of the site but I don’t think  a google map would have  made the landing page here.</p>
+
+<p>It was also interesting to watch the foursquare community, I think overall OSM has gained visibility and exposure from this change (citation needed)</p>
+
+<p>Flickr has  <a href="http://code.flickr.com/blog/2012/07/11/designing-an-osm-map-style/">continued to have some OSM maps</a> and improve those maps, despite a new deal yahoo has to switch to Nokia maps, has <a href="http://code.flickr.com/blog/2012/07/11/designing-an-osm-map-style/">continued to have some OSM maps. </a></p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.005.jpg" alt="iflickr map, showing Beijing" /></p>
+
+<p>I would love to see  OSM as a layer across flickr’s maps, the Nokia maps are a big improvement but are still aimed at car drivers and so still miss lots of places where photo’s might be taken. Hopefully we will see  more OSM on flickr in the future.</p>
+
+<p>Finally as a more personal example of a switch2osm. I switched my parents <a href="http://www.bullfarmoast.co.uk/">B&amp;B in Kent </a> over to use OSM.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.006.jpg" alt="B&amp;B at Bull Farm Oast, map page" /></p>
+
+<p>This change was a little overdue, but for me is a milestone on my journey with OSM, I first discovered OpenStreetMap when I was trying to locate local attractions when I first added a google map to this site, back around 2006.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.007.jpg" alt="Sissinghurst Castle information page." /></p>
+
+<p>I wasn’t surprised by the detail on the <a href="http://www.bullfarmoast.co.uk/attractions/Sissinghurst_Castle">Sissinghurst page</a>, as I mapped this myself.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.008.jpg" alt="Bodiam Castle information page" /></p>
+
+<p>but in fact zoomed in, almost every page such as this one for <a href="http://www.bullfarmoast.co.uk/attractions/Bodiam_Castle">Bodiam Castle</a> has lots of the little bits of detail, such as the moat, ticket office and car park (not shown here).</p>
+
+<p>A lot of this is now possible, because more and more companies are starting to provide services around OSM. As I said last year:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.009.jpg" alt="OSM Database Server" /></p>
+
+<p>Rightly or wrongly <strong>OSM is currently setup largely as a data provider - </strong>so it’s really great to see these other “consumer” facing options and websites appear as the more people see OSM the better our data becomes even if only a ting percentage of these can be converted into mappers. Obviously better information and simpler tools may help to lower the entry barrier in the future.</p>
+
+<p>The biggest recent impact has been from <a href="http://mapbox.com/">mapbox:</a></p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.010.jpg" alt="Mapbox website" /></p>
+
+<p>Also a big shout out to the <a href="http://maps.stamen.com/">Stamen</a> map styles and tiles:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.011.jpg" alt="Black and White map of Glasgow Center" /></p>
+
+<p>such as the toner style above or the acclaimed watercolour style that I used on the first slide.</p>
+
+<p>While we’re on styles, we can’t ignore the continuous improvement’s to the OSM “house” style:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.012.jpg" alt="OpenStreetMap - showing Aberdeen" /></p>
+
+<p>The cycle map style:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.013.jpg" alt="OpenStreetMap, cyclemap style, low zoom showing lots of scotland" />]</p>
+
+<p>public transport style:
+<img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.014.jpg" alt="OSM Website, public transport style, centered on Glasgow." />]</p>
+
+<p>and mapquest style
+<img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.015.jpg" alt="Openstreetmap website, showing mapquest style centered on Glasgow" />]</p>
+
+<p>again <a href="http://open.mapquest.co.uk/">mapquest open</a> provides a great example of a complete web mapping site, with search and routing. So provides a potential OSM powered  google maps replacement.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.016.jpg" alt="So What about the streets" /></p>
+
+<p>So last year we did a comparison between the OS Locator dataset and OSM using the ITO Analysis tool, by region. I’ve added this years data into the table.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Place</th>
+      <th>2012</th>
+      <th>OS Locator</th>
+      <th>2012</th>
+      <th>“Missing”</th>
+      <th>2012 Roads</th>
+      <th>11 to 12 change</th>
+    </tr>
+    <tr>
+      <th> </th>
+      <th>position</th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Edinburgh</td>
+      <td>4</td>
+      <td>4,760</td>
+      <td>4784</td>
+      <td>0</td>
+      <td>9</td>
+      <td>100 -&gt; 99.81</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Midlothian</td>
+      <td>6</td>
+      <td>1,180</td>
+      <td>1193</td>
+      <td>0</td>
+      <td>9</td>
+      <td>100 -&gt; 99.25</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Clackmannanshire</td>
+      <td>1</td>
+      <td>817</td>
+      <td>819</td>
+      <td>5</td>
+      <td>0</td>
+      <td>99.27 -&gt; 100</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>South Lanarkshire</td>
+      <td>5</td>
+      <td>5432</td>
+      <td>5491</td>
+      <td>73</td>
+      <td>34</td>
+      <td>98.55 -&gt; 99.38</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>West  Dunbartonshire</td>
+      <td>9</td>
+      <td>1,233</td>
+      <td>1236</td>
+      <td>18</td>
+      <td>15</td>
+      <td>98.54 -&gt; 98.79</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Shetland Islands</td>
+      <td>8</td>
+      <td>309</td>
+      <td>311</td>
+      <td>6</td>
+      <td>3</td>
+      <td>98.06 -&gt; 99.04</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Stirling</td>
+      <td>12</td>
+      <td>1,361</td>
+      <td>1370</td>
+      <td>29</td>
+      <td>37</td>
+      <td>97.58 -&gt; 97.30</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>East Ayrshire</td>
+      <td>16</td>
+      <td>2039</td>
+      <td>2052</td>
+      <td>50</td>
+      <td>64</td>
+      <td>97.50 -&gt; 96.83</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Glasgow City</td>
+      <td>1</td>
+      <td>6758</td>
+      <td>6761</td>
+      <td>171</td>
+      <td>0</td>
+      <td>97.44 -&gt; 100%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>West Lothian</td>
+      <td>15</td>
+      <td>2030</td>
+      <td>2038</td>
+      <td>48</td>
+      <td>59</td>
+      <td>97.44 -&gt; 96.96%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Inverclyde</td>
+      <td>13</td>
+      <td>1239</td>
+      <td>1240</td>
+      <td>32</td>
+      <td>34</td>
+      <td>97.42 -&gt; 97.26%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Na H Eileanan An Iar</td>
+      <td>10</td>
+      <td>298</td>
+      <td>297</td>
+      <td>5</td>
+      <td>4</td>
+      <td>97.32 -&gt; 98.98%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>East Lothian</td>
+      <td>11</td>
+      <td>1343</td>
+      <td>1353</td>
+      <td>33</td>
+      <td>32</td>
+      <td>97.10 -&gt; 97.19%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>North Ayrshire</td>
+      <td>14</td>
+      <td>2180</td>
+      <td>2189</td>
+      <td>63</td>
+      <td>63</td>
+      <td>97.06 -&gt; 98.08%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Dundee City</td>
+      <td>20</td>
+      <td>2223</td>
+      <td>2229</td>
+      <td>65</td>
+      <td>76</td>
+      <td>97.03 -&gt; 96.55%</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Angus</td>
+      <td>18</td>
+      <td>1877</td>
+      <td>1878</td>
+      <td>57</td>
+      <td>59</td>
+      <td>96.91 -&gt; 96.81</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>South Ayrshire</td>
+      <td>22</td>
+      <td>1803</td>
+      <td>1809</td>
+      <td>61</td>
+      <td>69</td>
+      <td>96.45 -&gt; 96.08</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Argyll And Bute</td>
+      <td>21</td>
+      <td>1400</td>
+      <td>1403</td>
+      <td>50</td>
+      <td>48</td>
+      <td>96.43 -&gt; 96.58</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Monmouthshire</td>
+      <td>17</td>
+      <td>1529</td>
+      <td>1538</td>
+      <td>52</td>
+      <td>48</td>
+      <td>96.34 -&gt; 96.81</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Fife</td>
+      <td>23</td>
+      <td>5607</td>
+      <td>5627</td>
+      <td>217</td>
+      <td>228</td>
+      <td>95.93 -&gt; 95.75</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Scottish Borders</td>
+      <td>24</td>
+      <td>1890</td>
+      <td>1902</td>
+      <td>78</td>
+      <td>79</td>
+      <td>95.77 -&gt; 95.74</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>East Renfrewshire</td>
+      <td>27</td>
+      <td>1323</td>
+      <td>1328</td>
+      <td>57</td>
+      <td>60</td>
+      <td>95.62 -&gt; 95.41</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Aberdeen City</td>
+      <td>1</td>
+      <td>2772</td>
+      <td>2774</td>
+      <td>125</td>
+      <td>0</td>
+      <td>95.27 -&gt; 100</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Highland</td>
+      <td>28</td>
+      <td>3443</td>
+      <td>3483</td>
+      <td>535</td>
+      <td>388</td>
+      <td>84.05 -&gt; 88.46</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Aberdeenshire</td>
+      <td>25</td>
+      <td>3886</td>
+      <td>3936</td>
+      <td>626</td>
+      <td>167</td>
+      <td>83.63 -&gt; 95.73</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Renfrewshire</td>
+      <td>26</td>
+      <td>2447</td>
+      <td>1378</td>
+      <td>430</td>
+      <td>60</td>
+      <td>82.18 -&gt; 95.41</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Perth and Kinross</td>
+      <td>19</td>
+      <td>2409</td>
+      <td>2424</td>
+      <td>478</td>
+      <td>79</td>
+      <td>79.91 -&gt; 96.45</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Dumfries And Galloway</td>
+      <td>7</td>
+      <td>2556</td>
+      <td>2580</td>
+      <td>586</td>
+      <td>22</td>
+      <td>76.53 -&gt; 99.15</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Moray</td>
+      <td>29</td>
+      <td>1545</td>
+      <td>1581</td>
+      <td>366</td>
+      <td>226</td>
+      <td>75.92 -&gt; 85.45</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The first thing that struck me as that in both Edinburgh and Midlothian the total number of roads has increased, but we’ve missed some so we’re not longer at 100%.</p>
+
+<p>There have been some fantastic, improvements Glasgow was missing 171 roads last year and these have been accounted for. Dumfries And Galloway was bottom of the list last year and it’s now in 7th, as has Aberdeen City.</p>
+
+<p>There are also some places such as Na H Eileanan An Iar; also known as the Outer Hebredies which are looking quite static.</p>
+
+<p>So what does that all add up to?</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.019.jpg" alt="2011, 4316 Roads Missing from OSM Compared to OS, Scotland was 93% Complete. In 2012, 1972 Roads Missing. Scotland 95% Complete" /></p>
+
+<p>In 2011, we  were shown as having 4316 Roads that hadn’t been accounted for, so 93% match.</p>
+
+<p>When I looked a few days ago, we only  don’t align on 1972 missing roads, or a 95% match.</p>
+
+<p>So what are these missing streets? I started by looking at the 9 roads highlighted in Edinburgh.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.020.jpg" alt="ITO Analysis Map, showing missing new estate road names," /></p>
+
+<p>The first stop are these Roads in <a href="http://www.openstreetmap.org/?lat=55.95985&amp;lon=-3.40179&amp;zoom=17&amp;layers=M">Kirkliston</a>, we seem to have one of these roads, but are missing the name, the other two roads are shown in OSM as under construction as below.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.021.jpg" alt="OSM Map showing &quot;missing streets&quot; as roads under contruction." /></p>
+
+<p>So the conclusion is probably a draw on this one, it looks like neither OS Locator or OSM have the full picture, but a visit is needed.</p>
+
+<p>The next example is around <a href="http://www.openstreetmap.org/?lat=55.944719016552&amp;lon=-3.36523085832596&amp;zoom=17">Edinburgh Airport</a></p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.022.jpg" alt="ITO Analysis Map, OSM shows Almond Avenue and OSM shows Almond Drive" /></p>
+
+<p>OSM Shows Almond Avenue, but OS Locator Almond drive. A visit here will need to take place to confirm who is right.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.023.jpg" alt="ITO Map, showing missing road" /></p>
+
+<p>Again it looks like some new houses here have led to some new developments that we don’t yet have.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.024.jpg" alt="ITO Map, showing new estate" /></p>
+
+<p>This one was quite simple the Lane and the footpath should be joined, so I fixed this myself.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.025.jpg" alt="ITO Map" /></p>
+
+<p>I think that this one is a new development, that needs visiting.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.026.jpg" alt="ITO Map" /></p>
+
+<p>Again this one in Newhaven is probably a new development, that needs visiting.</p>
+
+<p>Interestingly in the few days since I gave this presentation, some of these have been fixed, by changes such as this one: <a href="http://www.openstreetmap.org/browse/changeset/13611107">“Added missing street names from ITO in Kirkliston”</a> and this “<a href="http://www.openstreetmap.org/browse/way/187296573/history">Added initial layout of new housing development in Newburgh, Edinburgh.</a>”. I really hope that these were done with local knowledge especially as adding the through road through Kirkliston doesn’t looks like the kind of road layout that would be permitted as it would allow a rat run through a residential area.</p>
+
+<p>Anyway, we have evidence that OS Locator data can’t always be relied upon.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.027.jpg" alt="How accurate is OS data? In Edinburgh 2.2% of names don't match, in Glasgow 1.4% of names don't match. Worst case in the UK, in King's Lynn and West Norfolkm 7.4% don't match." /></p>
+
+<p>Already in Edinburgh 2.2% of roads in Edinburgh do not match what OS Locator shows.</p>
+
+<p>Glasgow, 1.4 % and looking at one of the other places at 100%, Kings’s Lynn shows 7.4% out. This is really a warning, we should be using this as a datasource to help us know where to map, but this data cannot be relied upon.</p>
+
+<p>Something else was causing me concern, and that was in the Outer Hebrides.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.028.jpg" alt="How are we doing in Remote Places, like the Outer Hebrides" /></p>
+
+<p>It also helps that I’ve holidayed and mapped here (or should it be the other way round) and so have lots of photos :)</p>
+
+<p>There weren’t many changes in 2011 of 298 roads we were missing 5 and in 2012 the total roads is 297 and we’re missing 4.</p>
+
+<p>So first thing, I thought that I would look at the last modification data of a selection of the objects:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.029.jpg" alt="2006, 971, 2007: 10499, 2008: 2967, 2009: 7015, 2010: 61878, 2011: 8698, 2012: 26600" /></p>
+
+<p>This wasn’t quite what I expected, so  far this year there has been <em>a lot</em> of activity.</p>
+
+<p>And so I thought I would break down into months:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.030.jpg" alt="" /></p>
+
+<p>So the basic level is quite small, but with a big peak in June and July.</p>
+
+<p>Looking in detail at June I saw, most of the changes:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.031.jpg" alt="" /></p>
+
+<p>we’re made by a single user, brianboru. I was very happy to see that he had been there and  and some of the information is surveyed on the ground with lots of detailed tracing of terrain, helping to fill in the map, so I thought I would see what else this user was up to?</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.032.jpg" alt="" /></p>
+
+<p>So he’s from Birmingham, and by the looks of things he like I holidayed and did a ton of mapping and tracing whilse on holiday.</p>
+
+<p>But once I ignored the holiday based tracing binges, there is a steady background work by seumas, and looking at his page, I was again very pleased to see that he does live on the Island.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.033.jpg" alt="" /></p>
+
+<p>and busy doing some mapping of shops, pubs, chippies and some paths:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.034.jpg" alt="" /></p>
+
+<p>This was really for me the Golden Road, to be honest I didn’t expect to find a local mapper living on the edge of the country, but here he is.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.035.jpg" alt="" /></p>
+
+<p>So how much data do we have:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.036.jpg" alt="Cat - WHAT DO WE HAVE?" /></p>
+
+<p>Overall the breakdown over Scotland is:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.037.jpg" alt="1.2G of XML, 5 847 127 Nodes, 483 990 Ways, 5086 Relation Compared to before the license change, 5 206 480 Nodes, 451 091 Ways, 4844 Relations" /></p>
+
+<p>]he uncompressed XML weighs in at 1.2G on disk, consisting of nearly 6 million nodes, nearly 500 000 ways and 5000 relations.</p>
+
+<p>I also ran this against a dump from before the licence change, and we have grown significantly since then, by over 600 000 nodes, and  30 000 ways. So we are well above the numbers from before the change, and thanks to the hard work of the community in Scotland to get local mappers on board and also to mitigate against loss I don’t think we had any big problems.</p>
+
+<p>What’s in a name?</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.0381.jpg" alt="36 660 named nodes and 134 724 named ways" /></p>
+
+<p>We have 36 660 named nodes and 134 724 named ways.</p>
+
+<p>Place?</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.0391.jpg" alt="6807 Names Places" /></p>
+
+<p>6807 of these are places, from Cities down to Hamlets and localities.</p>
+
+<p>So how long are the ways:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.040.jpg" alt="" />
+The table above lists the top 20 way types by length.</p>
+
+<p>The total, motorway length in OSM shows as 827km compares well with the total motorway length in wikipedia (once I remembered that OSM will have ways for both directions)</p>
+
+<p>We have 4 226km of paths, I suspefct there are a lot more in Scotland.</p>
+
+<p>We’re up to 1 645 km of cycleway, and additionally cycling is permitted on a further 1000km of footways and paths.</p>
+
+<p>We have 53 km of steps, I wouldn’t want to climb those all at once.</p>
+
+<p>There is also the longtail of the list:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.041.jpg" alt="" /></p>
+
+<p>Somewhere we have 30m of broken bridge (not the one pictured), 10 km of racing track and 1 099m of train platforms.</p>
+
+<p>all made possible by OSM’s flexable tagging system:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.042.jpg" alt="" /></p>
+
+<p>and the 1776 users who have contributed!</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.0431.jpg" alt="List of *all* contributors in Scotland" /></p>
+
+<p>Last year I asked the question.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.044.jpg" alt="How do we extend the community?" /></p>
+
+<p>I still don’t think we have a really good answer to that question, but whatever we do, we must Tell People.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.045.jpg" alt="Tell people, OSM is not like fight club, Tell your sister mother brother, Tell your friends and enemies, Show everyone you meet, Go out your way to tell strangers" /></p>
+
+<p>It’s the only way of improving the map.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-10-25-state-of-the-map-scotland-2013-the-state-of-scotland/main_presentation.046.jpg" alt="Thank you. Follow me @chrisfl on twitter or @OSMScotland" /></p>
+
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="openstreetmap" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Lanark Mapping Party]]></title>
+    <link href="http://chrisfleming.github.com/octopress/OpenStreetMap/new-lanark-mapping-party/"/>
+    <updated>2012-03-05T12:38:06+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/OpenStreetMap/new-lanark-mapping-party</id>
+    <content type="html"><![CDATA[<p>I’ve just finished my map updates from the <a href="http://wiki.openstreetmap.org/wiki/Mapping_Party/New_Lanark">New Lanark Mapping Party</a> this weekend. I’m pretty sure that this has been the best attended of our mapping parties with more new people than old, I didn’t do a count but easily over 20.</p>
+
+<p>New Lanark itself, is a World Heritage Site was originally founded in 1786 as Cotton Mills and Housing for the workers, it’s an early example of planned urban development and the business itself was run with consideration for the well being of the workers and lead the way in reform, socialism and welfare. But the <a href="http://en.wikipedia.org/wiki/New_Lanark">wikipedia article</a> covers this, and is well worth a read.</p>
+
+<p>The area either side of the cycle is the Scottish Wildlife Trust’s <a href="http://scottishwildlifetrust.org.uk/reserve/falls-of-clyde/">Falls of Clyde a nature reserve</a></p>
+
+<p><span class="caption-wrapper"><img class="caption" src="http://chrisfleming.github.com/octopress/post-assets/2012-03-05-new-lanark-mapping-party/map2.png" width="" height="" alt="Map data © OpenStreetMap contributors, CC BY-SA" title="Map data © OpenStreetMap contributors, CC BY-SA" /><span class="caption-text">Map data © OpenStreetMap contributors, CC BY-SA</span></span></p>
+
+<p>The day started with a quick get together, where we choose our slices of the area to map, with Bob and Tim taking the new mappers around the village and because the mapping party was sponsored by <a href="http://www.centralscotlandgreennetwork.org/">The Central Scotland Green Network Community Fund</a>  I picked a green area with other side of the Clyde, without quite realising how far it was to get to a bridge to cross….</p>
+
+<p>This didn’t matter as the the morning’s rain cleared and the sun came out, the scenery was quite special.</p>
+
+<p><a href="http://www.flickr.com/photos/61663261@N00/6952363439/"><img src="http://farm8.staticflickr.com/7202/6952363439_ec6bd7d121.jpg" alt="Falls of Clyde." /></a></p>
+
+<p><a href="http://www.flickr.com/photos/61663261@N00/6806265398/"><img src="http://farm8.staticflickr.com/7059/6806265398_4a0d174666.jpg" alt="Forest." /></a></p>
+
+<p>although parts of the area had been mapped in advance, there were lots of details to add:</p>
+
+<p><a href="http://www.flickr.com/photos/61663261@N00/6806253372/"><img src="http://farm8.staticflickr.com/7202/6806253372_eeca3921ee_m.jpg" alt="Seats" /></a><a href="http://www.flickr.com/photos/61663261@N00/6806262524/"><img src="http://farm8.staticflickr.com/7041/6806262524_a81be1d683_m.jpg" alt="Private Path." /></a></p>
+
+<p>as well as the obligatory danger signs:</p>
+
+<p><a href="http://www.flickr.com/photos/61663261@N00/6806248684/"><img src="http://farm8.staticflickr.com/7063/6806248684_6ed008bb92.jpg" alt="DANGER!" /></a></p>
+
+<p>and closed roads, which <a href="http://refnum.com/">Dair</a> - seen running out had already covered.</p>
+
+<p><a href="http://www.flickr.com/photos/61663261@N00/6806257320/"><img src="http://farm8.staticflickr.com/7070/6806257320_405d19a7c7.jpg" alt="Road Closed." /></a></p>
+
+<p>In all we covered 11km of mostly footpaths, I was glad of the lack of tree cover at the moment which meant that I could vastly improve area’s such as this windy downhill:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2012-03-05-new-lanark-mapping-party/map-3.png" alt="" /></p>
+
+<p>and some more urban mapping:</p>
+
+<p><a href="http://www.flickr.com/photos/61663261@N00/6952382307/"><img src="http://farm8.staticflickr.com/7188/6952382307_265b09b099_m.jpg" alt="House Number" /></a><a href="http://www.flickr.com/photos/61663261@N00/6806268122/"><img src="http://farm8.staticflickr.com/7065/6806268122_e27cc948ff_m.jpg" alt="Street Sign" /></a></p>
+
+<p>By the time we got back, we had missed lunch but it was good to see everyone busy processing the afternoon’s work:</p>
+
+<p><a href="http://www.flickr.com/photos/61663261@N00/6806278376/"><img src="http://farm8.staticflickr.com/7203/6806278376_2964edbbc4_m.jpg" alt="Mapping." /></a><a href="http://www.flickr.com/photos/61663261@N00/6952389821/"><img src="http://farm8.staticflickr.com/7208/6952389821_5bece9154c_m.jpg" alt="Mapping." /></a><a href="http://www.flickr.com/photos/61663261@N00/6806272940/"><img src="http://farm8.staticflickr.com/7066/6806272940_559566978f_m.jpg" alt="Mapping." /></a></p>
+
+<!-- more -->
+
+<p>In all it was a great success, and a huge thanks go to Tim for doing the hard work of organising the day, sponsorship, venue and publicising the event. There is a <a href="http://wiki.openstreetmap.org/wiki/Workshop/Glasgow2012">mapping workshop in Glasgow</a> on the 17 March and our next social meetup is on the <a href="http://wiki.openstreetmap.org/wiki/Edinburgh#Upcoming_Pub_Meetings">20th March in Edinburgh.</a></p>
+
+<p>Have a look at the <a href="http://osm.org/go/evcmQfTP">finished map.</a>.</p>
+
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="openstreetmap" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[SOTM Scotland Video's online]]></title>
+    <link href="http://chrisfleming.github.com/octopress/OpenStreetMap/sotm-scotland-videos-online/"/>
+    <updated>2011-09-20T14:03:33+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/OpenStreetMap/sotm-scotland-videos-online</id>
+    <content type="html"><![CDATA[<div class="flash-video">
+<div>
+<iframe width="640" height="360" src="http://www.youtube.com/embed/xpYPuaf0HYc?feature=player_detailpage" frameborder="0" allowfullscreen="">
+
+
+
+
+As well as [Bob](http://www.openstreetmap.org/user/Central%20America) doing an introduction to [OSM](http://www.openstreetmap.org) (above), all the video&#8217;s from the conference, including
+[my talk](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/)
+all now up, at: &lt;http://wiki.openstreetmap.org/wiki/State_Of_The_Map_Scotland_2011#Schedule&gt;
+
+Hopefully I&#8217;ll get my slides from the other talk I did, on making my festival map (reused from [WhereCamp EU](http://wherecamp.eu/)) online in the next few days.
+
+Finally a big thanks to &#8220;the other&#8221; Bob from [City Strolls](http://www.citystrolls.com/) for doing the had work of making and editing the video&#8217;s.
+</iframe></div></div>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="openstreetmap" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Is the baby ready yet?]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Family/is-the-baby-ready-yet/"/>
+    <updated>2011-09-19T14:42:19+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Family/is-the-baby-ready-yet</id>
+    <content type="html"><![CDATA[<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-19-is-the-baby-ready-yet/scan_anom.jpg" alt="" /></p>
+
+<p>The baby is now much bigger than when this scan was done… and some folks I work with requested a dashboard. So the answer all your questions is at <a href="http://isthebabyreadyyet.chrisfleming.org">http://isthebabyreadyyet.chrisfleming.org/</a></p>
+
+<p>I’m not sure how much time I’ll actually have to keep this up to date, but there will be some updates.</p>
+
+<p>The source (a horrid mix of html, css and javascript) is <a href="https://github.com/chrisfleming/IS-The-baby-ready-yet-">available on github.</a></p>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="family" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[State of the Map Scotland - The State of Scotland]]></title>
+    <link href="http://chrisfleming.github.com/octopress/OpenStreetMap/state-of-the-map-scotland-the-state-of-scotland/"/>
+    <updated>2011-09-13T15:14:35+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/OpenStreetMap/state-of-the-map-scotland-the-state-of-scotland</id>
+    <content type="html"><![CDATA[<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide02.jpg" alt="" /></p>
+
+<p>With the “Official” <a href="http://stateofthemap.org/">State of the Map</a> Conference in Denver finishing over the weekend, I’m reminded that I’ve not yet put my talk from our little un-conference at the end of August up on, and as we have a <a href="http://wiki.openstreetmap.org/wiki/Edinburgh#Social_Events">social in Edinburgh this evening, </a> I though that I had better do that. So here are my slides and a rough version of what I talked about, we had a mixed group so who were new to OpenStreetMap and also regular mappers; my plan was to try and put something in for both groups.</p>
+
+<p>The talk started by thinking about what is OpenStreetMap…</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide03.jpg" alt="OpenStreetMap creates and provides free geographic  data such as street maps to anyone who wants them. The project was started because most maps you think  of as free actually have legal or technical restrictions  on their use, holding back people from using them in  creative, productive, or unexpected ways.  " /></p>
+
+<p>So we have the Open data definition of OpenStreetMap, but what does it actually look like:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide04.jpg" alt="The OpenSteetMap Foundation The Map The Planet File The Website The Wiki Tools The Community  .???? " /></p>
+
+<p>So what does OpenStreetMap Look Like? What tangible and untangible things do we have?</p>
+
+<p>Well like it or not OSM was formed on an open principle of licensing so lets start there….</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide05.jpg" alt="CC-BY-SA" /></p>
+
+<p>So we started with a <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA license </a> which is built on the principle that you are free to Share or Adapt, the work provided that you Attribute and Share Alike the resulting work. But there are problems with this for a database such as OSM’s so there has been a process to create the ODBL:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide06.jpg" alt="" /></p>
+
+<p>I’m not going to get into the nitty gritty now, and <a href="http://refnum.com/">Dair</a> is going to be talking about the advantages of ODBL over CC-BY-SA later. But the ongoing process is not without pain, but the end result will be a map that is much easier to actually use, and that what we’re about.</p>
+
+<p>So is OSM about the MAP? We definitly have advantages over other maps, for example the A to Z might show:</p>
+
+<p>![](/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide07.jpg</p>
+
+<p>A close where this is a row of houses as an Easter Egg.</p>
+
+<p>Also our map can be much better than the alternatives: Take a look at one of the area’s I first mapped on Bing:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide09.jpg" alt="" /></p>
+
+<p>In google:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide10.jpg" alt="" /></p>
+
+<p>and on OSM:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide11.jpg" alt="" /></p>
+
+<p>As well as factual inaccuracies, such as Road naming, missing streets, and incorrect road geometries, there are also additional details such as cycle paths, foot paths, private roads, buildings, schools, parks, station platforms and steps on OSM.</p>
+
+<p>We can also do more interesting things with maps, such as create our versions from the underlying data:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide12.jpg" alt="" /></p>
+
+<p>This is from my work in Progress for <a href="http://edinburghfestivalmaps.co.uk/">Edinburgh Festival Maps</a>. Where I can choose what is displayed and what isn’t, for example the fringe venues show their festival names and are shown in blue.</p>
+
+<p>And all this is possible because it’s a map we can Edit ourseleves.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide131.jpg" alt="" /></p>
+
+<p>and the data model is pretty simple, at the bottom we have nodes, on there own these can represent point objects. Such as cycle parking, traffic lights, bollards. There can be connected together to for ways. There might represent roads or building, boundaries, rivers anything that might be represented by a line or a closed area.</p>
+
+<p>Less simple, we also have relations, these are collections or ways or nodes, and are used to represent more complex objects such as the courtyard in a building or cycle routes.</p>
+
+<p>On top of these we have a flexible tagging scheme:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide14.jpg" alt="" /></p>
+
+<p>the tagging scheme is totally open, there are no rules enforced by the API or the database. This means that you are free to tag things however you want. But the community has a set of conventions that are documented on the wiki and generally these are adhered to. But the important thing here is when you find something new; there aren’t any committees deciding how to tag, you just do it.</p>
+
+<p>So is OSM the hardware?</p>
+
+<p><a href="http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide15/"><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide15.jpg" alt="" /></a></p>
+
+<p>or the code?</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide16.jpg" alt="" /></p>
+
+<p>I would say that it’s the community:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide17.jpg" alt="" /></p>
+
+<p>Not that kind of community…</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide18.jpg" alt="" /></p>
+
+<p>This kind of community - this picture is from the Edinburgh Zoo mapping party where we mapped the zoo out:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide19.jpg" alt="" />](http://www.chrisfleming.org/osm/state-of-the-map-scotland-the-state-of-scotland/attachment/slide19/)</p>
+
+<p>It’s the same community that meant that in November 2007, Edinburgh looked like:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide20.jpg" alt="" /></p>
+
+<p>and in August 2012:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide21.jpg" alt="" /></p>
+
+<p>and overall the numbers against the ITO analysis look pretty good:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Place</th>
+      <th>OS Locator</th>
+      <th>Roads Missing</th>
+      <th>% Complete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Edinburgh</td>
+      <td>4,760</td>
+      <td>0</td>
+      <td>100</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Midlothian</td>
+      <td>1,180</td>
+      <td>0</td>
+      <td>100</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Clackmannanshire</td>
+      <td>817</td>
+      <td>5</td>
+      <td>99.27</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>South Lanarkshire</td>
+      <td>5432</td>
+      <td>73</td>
+      <td>98.55</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>West Dunbartonshire</td>
+      <td>1,233</td>
+      <td>18</td>
+      <td>98.54</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Shetland Islands</td>
+      <td>309</td>
+      <td>6</td>
+      <td>98.06</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Stirling</td>
+      <td>1,361</td>
+      <td>29</td>
+      <td>97.58</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>East Ayrshire</td>
+      <td>2039</td>
+      <td>50</td>
+      <td>97.5</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Glasgow City</td>
+      <td>6758</td>
+      <td>171</td>
+      <td>97.44</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>West Lothian</td>
+      <td>2030</td>
+      <td>48</td>
+      <td>97.44</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Inverclyde</td>
+      <td>1239</td>
+      <td>32</td>
+      <td>97.42</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Na H Eileanan An Iar</td>
+      <td>298</td>
+      <td>5</td>
+      <td>97.32</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>East Lothian</td>
+      <td>1343</td>
+      <td>33</td>
+      <td>97.1</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>North Ayrshire</td>
+      <td>2180</td>
+      <td>63</td>
+      <td>97.06</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Dundee City</td>
+      <td>2223</td>
+      <td>65</td>
+      <td>97.03</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Angus</td>
+      <td>1877</td>
+      <td>57</td>
+      <td>96.91</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>South Ayrshire</td>
+      <td>1803</td>
+      <td>61</td>
+      <td>96.45</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Argyll And Bute</td>
+      <td>1400</td>
+      <td>50</td>
+      <td>96.43</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Monmouthshire</td>
+      <td>1529</td>
+      <td>52</td>
+      <td>96.34</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Fife</td>
+      <td>5607</td>
+      <td>217</td>
+      <td>95.93</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Scottish Borders</td>
+      <td>1890</td>
+      <td>78</td>
+      <td>95.77</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>East Renfrewshire</td>
+      <td>1323</td>
+      <td>57</td>
+      <td>95.62</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Aberdeen City</td>
+      <td>2772</td>
+      <td>125</td>
+      <td>95.27</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Highland</td>
+      <td>3443</td>
+      <td>535</td>
+      <td>84.05</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Aberdeenshire</td>
+      <td>3886</td>
+      <td>626</td>
+      <td>83.63</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Renfrewshire</td>
+      <td>2447</td>
+      <td>430</td>
+      <td>82.18</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Perth and Kinross</td>
+      <td>2409</td>
+      <td>478</td>
+      <td>79.91</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Dumfries And Galloway</td>
+      <td>2556</td>
+      <td>586</td>
+      <td>76.53</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Moray</td>
+      <td>1545</td>
+      <td>366</td>
+      <td>75.92</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Until we get too the bottom of the table… but the total is still something to be proud of.</p>
+
+<p>According to the ITO analysis, we’re missing”4316 Roads compared to OS.</p>
+
+<p>This means that Scotland is 93% “Complete” by this measure.</p>
+
+<p>and when we are 100% complete on this measure there may be other measures to look at:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide25.jpg" alt="" /></p>
+
+<p>such as the meridian analysis, but we need to complete the map first. For now, and I don’t want to start a fight:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide26.jpg" alt="" /></p>
+
+<p>we’re going to do that by tracing:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide27.jpg" alt="" /></p>
+
+<p>Which is great, people can use the maps with confidence; and across the country we know we at very least meet the google maps standard, but for the OSM standard we really need to have people on the ground, and we have a problem, there was a study done into <a href="SOTM 2010 Talk  Who Maps in OpenStreetMap and Why?">Who Maps in OpenStreetMap and Why?</a></p>
+
+<p>This found that mappers are 96% Male and 78% have a degree and higher.</p>
+
+<p>We also know that <a href="http://povesham.wordpress.com/2011/01/10/how-many-volunteers-does-it-take-to-map-an-area-well-the-validity-of-linus-law-to-volunteered-geographic-information/">more people looking at area’s improved accuracy.</a></p>
+
+<p>So for the best freshest map we need people on the ground, in Moray and Dumfries and across Scotland.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide30.jpg" alt="" /></p>
+
+<p>The OSM website shows 30 mappers within 1km of me in Edinburgh, yet we have huge area’s of Scotland with no one.</p>
+
+<p>The big challenge for OSM in Scotland is to get people across the country looking after there street, town and village in Scotland adding the details and seeing what has changed.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-09-13-state-of-the-map-scotland-the-state-of-scotland/Slide32.jpg" alt="" /></p>
+
+<h4 id="photo-credits">Photo Credits</h4>
+
+<ul>
+  <li><a href="Image from: http://www.flickr.com/photos/johnmueller/52621490/">photo: http://www.flickr.com/photos/johnmueller/52621490/</a></li>
+  <li><a href="http://farm6.static.flickr.com/5081/5237521828_536640e421_o.jpg">http://farm6.static.flickr.com/5081/5237521828_536640e421_o.jpg</a></li>
+  <li><a href="http://www.flickr.com/photos/sunfrog1/307110936/">photo: http://www.flickr.com/photos/sunfrog1/307110936/</a></li>
+  <li><a href="http://www.flickr.com/photos/67155762@N00/3388293945/">Photo: http://www.flickr.com/photos/67155762@N00/3388293945/</a></li>
+  <li>photo: <a href="http://farm5.static.flickr.com/4041/4441209986_29ecf7f7b7_o.jpg">http://farm5.static.flickr.com/4041/4441209986_29ecf7f7b7_o.jpg</a></li>
+  <li><a href="http://www.flickr.com/photos/mvjantzen/5028611938/sizes/l/in/photostream/">photo: http://www.flickr.com/photos/mvjantzen/5028611938/sizes/l/in/photostream/</a></li>
+</ul>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="openstreetmap" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Culture Hack Scotland #1]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Festivals/culture-hack-scotland-1/"/>
+    <updated>2011-05-07T02:07:43+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Festivals/culture-hack-scotland-1</id>
+    <content type="html"><![CDATA[<p>So for anyone not following me on twitter, I’m currently attending <a href="http://culturehackscotland.com/">Culture Hack Scotland</a>; basically the big idea is to try and bring the tech and culture communities together. This is also based around a set of <a href="http://culturehackscotland.com/data">open data</a> which including fringe data, although for 2011 at least the fringe data will have some restrictions applied to it; however it’s a great step forward.</p>
+
+<p>There are lots of idea’s going on, some of which are quite exciting. However my plan is to work on a “Festival” Rendering of openstreetmap for Edinburgh, I’m really just at the point where I can start to render maps and have a <a href="http://wiki.openstreetmap.org/wiki/Proposed_features/Edinburgh_Festivals">proposed tagging scheme</a> for doing this within OSM.</p>
+
+<p>Still lots of work to do but at the moment I have started to put Fringe Venues on the map:</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2011-05-07-culture-hack-scotland-1/ishot-3-1024x640.jpg" alt="" /></p>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="festivals" />
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="geo" />
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="openstreetmap" />
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="opendata" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Edinburgh Zoo Mapping Party]]></title>
+    <link href="http://chrisfleming.github.com/octopress/OpenStreetMap/edinburgh-zoo-mapping-party/"/>
+    <updated>2010-08-18T15:11:40+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/OpenStreetMap/edinburgh-zoo-mapping-party</id>
+    <content type="html"><![CDATA[<p><a href="http://www.chrisfleming.org/gallery/OSM/EdinburghZoo/panorama_edinburgh_zoo"><span class="caption-wrapper"><img class="caption" src="http://chrisfleming.org/gallery/var/resizes/OSM/EdinburghZoo/panorama_edinburgh_zoo.jpg" width="" height="" alt="View over Edinburgh from the Zoo Viewing Point" title="View over Edinburgh from the Zoo Viewing Point" /><span class="caption-text">View over Edinburgh from the Zoo Viewing Point</span></span></a></p>
+
+<p>So this is a **very **long overdue writeup of the <a href="http://www.edinburghzoo.org.uk/">Edinburgh Zoo</a> mapping party that took place on Saturday 3rd July. Thanks to the work that <a href="http://wiki.openstreetmap.org/wiki/User:Central_America">Bob</a> had done not only were the zoo expecting us but also allowed us in for free in order to make the map.</p>
+
+<p>We used the zoo’s own map to create a cake and each took an area to map.</p>
+
+<p>I had picked the top of the hill to the North East, which included the Big Cats:</p>
+
+<p><a href="http://www.chrisfleming.org/gallery2/v/OSM/EdinburghZoo/img_6037.jpg.html"><span class="caption-wrapper"><img class="caption" src="http://chrisfleming.org/gallery/var/resizes/OSM/EdinburghZoo/img_6037.jpg" width="" height="" alt="Warning these Animals are Dangerous" title="Warning these Animals are Dangerous" /><span class="caption-text">Warning these Animals are Dangerous</span></span></a></p>
+
+<p><a href="http://www.chrisfleming.org/gallery2/v/OSM/EdinburghhZoo/img_6040+_Modified_.jpg.html"><img src="http://chrisfleming.org/gallery/var/resizes/OSM/EdinburghZoo/img_6040%20_Modified.jpg" alt="" /></a></p>
+
+<p>Overall the area division worked well, we did have some overlap but largely deliberate and partly to explore the rest of the zoo :)</p>
+
+<p>The biggest challenge turned out to be that working on such a small scale in a heavily wooded environment meant that GPS traces were very unreliable, so a lot of the actual mapping came down to using the traces as guidelines and some dead reckoning. Trying to make sure that everything is relatively well positioned  and fitting all the features in was a good challenge. Perhaps another trip in the winter when the trees won’t have any leaves with some walking papers will be in order?</p>
+
+<p>It wasn’t all work, I certainly paused to see some of the animals and happened to be passing animal antics during one of the demonstrations, unfortunately I didn’t get the name of this bird as there were no signs to photograph:</p>
+
+<p><a href="http://www.chrisfleming.org/gallery2/v/OSM/EdinburghZoo/img_6212+_Modified_.jpg.html"><img src="http://chrisfleming.org/gallery/var/resizes/OSM/EdinburghZoo/img_6194.jpg" alt="" /></a></p>
+
+<p><a href="http://www.chrisfleming.org/gallery2/v/OSM/EdinburghZoo/img_6194.jpg.html"><img src="http://chrisfleming.org/gallery/var/resizes/OSM/EdinburghZoo/img_6212 _Modified.jpg" alt="" /></a></p>
+
+<p>However at the end of the day we ended up with a much better map of the zoo, hopefully with all the enclosures covered:</p>
+
+<p><a href="http://www.openstreetmap.org/?lat=55.945504&amp;lon=-3.268237&amp;zoom=18&amp;layers=M"><img src="http://chrisfleming.org/post-assets/2010-08-18-edinburgh-zoo-mapping-party/EdinburghZoo.png" alt="Edinburgh Zoo OSM" /></a></p>
+
+<p>Finally the picture of the “brave” mappers who turned up to do the day’s mapping.</p>
+
+<p><img src="http://www.chrisfleming.org/gallery/var/resizes/OSM/EdinburghZoo/img_6269.jpg" alt="" /></p>
+
+<p>Map data copyright <a href="http://www.openstreetmap.org/">OpenStreetMap</a> <em>and</em> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a></p>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="openstreetmap" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Edinburgh mapping party - Penicuik]]></title>
+    <link href="http://chrisfleming.github.com/octopress/OpenStreetMap/edinburgh-mapping-party-penicuik/"/>
+    <updated>2010-04-12T00:02:18+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/OpenStreetMap/edinburgh-mapping-party-penicuik</id>
+    <content type="html"><![CDATA[<p>[](http://www.chrisfleming.org/osm/edinburgh-mapping-party-penicuik/attachment/screenshot_016/)<a href="http://www.flickr.com/photos/61663261@N00/4512365680/"><img src="http://farm3.static.flickr.com/2272/4512365680_c76b496195_b.jpg" alt="View to the Pentlands." /></a></p>
+
+<p>So we had the first of what will hopefully be a series of many Scottish mapping parties on Saturday, the idea is to pick somewhere which is reasonably accessible and still in need of mapping 
+and get together and spend some time filling in some of the big gaps outside of the city.</p>
+
+<p>There was enough of an outline of the roads to divide the town up into sectors and we headed off on bicycles and in cars to cover the town.</p>
+
+<p>We meet back for lunch at the <a href="http://www.openstreetmap.org/browse/node/693525734">Peni Deli</a> where we 
+were able to compare our tracks on my eeePC, although my gpsbabel kung-fu failed me and I only managed to pull 
+waypoints and not the full tracks from the Garmin. However it was still a valuable tool to see who had managed to cover what area’s, and importantly what was left to be covered.</p>
+
+<p><img src="http://chrisfleming.github.com/octopress/post-assets/2010-04-11-edinburgh-mapping-party-penicuik/screenshot_016.png" alt="" /></p>
+
+<p>We then split up to cover some of the area’s left, to map in the afternoon. I think that we may have got things slightly wrong here as we ended up with some duplication in terms of the area’s covered; however this isn’t necessary a bad thing as it has meant that some area’s have ended up much better than if a single person would have covered them.</p>
+
+<p>But, there is a lesson for the future, especially when we have lots of people trying to map a small area is that we all would be better carrying paper maps with the area’s each person is covering written on them or possibly working much closer as a team through an area and dividing up to cover various road, paths, building etc.</p>
+
+<p>Overall the day was a huge success, we managed to elevate Penicuik largely to the “mapped” status although I have no doubt that we will have missed some roads and certainly haven’t covered all the myriad of various footways around the estates.</p>
+
+<iframe width="660" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-3.24101,55.82354,-3.2047,55.83978&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+<p><br /><small><a href="http://www.openstreetmap.org/?lat=55.83166&amp;lon=-3.222855&amp;zoom=14&amp;layers=M">View Larger Map</a></small>
+<!--[osm_map lat="55.832" long="-3.222" zoom="14" width="660" height="450" gpx_file="http://www.chrisfleming.org/osm/penicuik.gpx"] --></p>
+
+<p>Overall, I covered 25 miles on my bike on my bike as shown by the blue line on the map above.</p>
+
+<p><a href="http://www.flickr.com/photos/61663261@N00/4512094195/"><span class="caption-wrapper"><img class="caption" src="http://farm3.static.flickr.com/2391/4512094195_4b1397bc3c_b.jpg" width="" height="" alt="The team at the day." title="The team at the day." /><span class="caption-text">The team at the day.</span></span></a></p>
+
+<p>It’s also worth putting out a big cheers to <a href="http://www.openstreetmap.org/user/Central%20America">Bob</a> for doing the hard work in organising this, and hopefully see some of you ﻿at the <a href="http://wiki.openstreetmap.org/wiki/Mapping_Party/Glasgow#Mapping_party">Glasgow mapping party</a> on the 22nd May.</p>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="openstreetmap" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Weekend Away in the Peaks]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/weekend-away-peaks/"/>
+    <updated>2010-02-24T23:04:58+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/weekend-away-peaks</id>
+    <content type="html"><![CDATA[<p><a href="http://farm5.static.flickr.com/4031/4385214459_b58f6e0842_b.jpg"><span class="caption-wrapper"><img class="caption" src="http://farm5.static.flickr.com/4031/4385214459_b58f6e0842_b.jpg" width="" height="" alt="Finding the Way" title="Finding the Way" /><span class="caption-text">Finding the Way</span></span></a></p>
+
+<p>We just got back from our <a href="http://www.chrisfleming.org/gallery2/v/friends/04Feb_Edmundbyers_0/">annual</a> <a href="http://www.chrisfleming.org/gallery2/v/friends/Wales2007/">weekend</a> <a href="http://www.chrisfleming.org/gallery2/v/friends/Lakes2009/">away</a> with friends.</p>
+
+<p>As usual I took the GPS down with me do do some <a href="http://www.openstreetmap.org/">OpenStreetMapping</a>,  however the map is so good these days that apart from the<a href="http://www.openstreetmap.org/browse/node/652878753"> odd postbox</a> and having to reclassify a <a href="http://www.openstreetmap.org/browse/way/39990472">track to a road</a> there was not a huge amount to add. I was even able to use the garmin files to successfully navigate a small walk.</p>
+
+<p>This left plenty of time to drink a few beers and take lots of <a href="http://www.flickr.com/photos/chrisfleming/sets/72157623378448985/detail/">pictures</a> :)</p>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="openstreetmap" />
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="photos" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Year. New Blog. Probably the same old story.]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Housekeeping/new-year-new-blog-probably-the-same-old-story/"/>
+    <updated>2010-01-21T21:43:17+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Housekeeping/new-year-new-blog-probably-the-same-old-story</id>
+    <content type="html"><![CDATA[<p><a href="http://farm3.static.flickr.com/2745/4252176094_94603bf340_b.jpg"><span class="caption-wrapper"><img class="caption" src="http://farm3.static.flickr.com/2745/4252176094_94603bf340_b.jpg" width="" height="" alt="New Year New Starter" title="New Year New Starter" /><span class="caption-text">New Year New Starter</span></span></a></p>
+
+<p>So here I am again. I’ve switch the blog from <a href="http://www.s9y.org/">serendipity</a> to <a href="http://wordpress.org/">wordpress</a>.
+Despite the possible security issues with  wordpress, I’ve a number of wordpress blogs and I have a script which should 
+help me keep them all up to date using svn.</p>
+
+<p>In addition, I’m in the process of moving my hosting from <a href="http://www.gradwell.com/">gradwell</a> to a Virtual Machine hosted by 
+<a href="http://www.bytemark.co.uk/">bytemark</a> partly because it will be cheaper for me and also because I was finding it hard
+getting support questions answered by  gradwell. This also means that at low volumes the response time from a dedicated
+server is much faster than from shared hosting. With the rollout of google’s new Caffeine infrastructure it’s likely that 
+<a href="http://googlewebmastercentral.blogspot.com/2010/01/state-of-index-2009.html">speed will become a factor in the search results</a>.</p>
+
+<p>So I’ve also built a new template for the site. It’s basically a cut down hacked around version of the standard wordpress
+<a href="http://binarybonsai.com/wordpress/kubrick/">kubrik template</a>. From the previous site I’ve cut down on the use of colour
+and I’ve dropped headers entirely and kept a single sidebar. There are lots of tweaks that still need to be applied.</p>
+
+<p><span class="caption-wrapper"><img class="caption" src="http://chrisfleming.github.com/octopress/post-assets/2010-01-21-new-year-new-blog-probably-the-same-old-story/website_before.png" width="" height="" alt="Before" title="Before" /><span class="caption-text">Before</span></span></p>
+
+<p><span class="caption-wrapper"><img class="caption" src="http://chrisfleming.github.com/octopress/post-assets/2010-01-21-new-year-new-blog-probably-the-same-old-story/website_new.png" width="" height="" alt="After" title="After" /><span class="caption-text">After</span></span></p>
+
+<p>So, I’m hoping to provide regular updates on my usual activities… Progress on the bread making front, 
+<a href="http://www.flickr.com/photos/chrisfleming">photography</a>, 
+<a href="http://www.openstreetmap.org/">OpenStreetMap</a>, 
+<a href="http://www.bedlamites.co.uk/">Bedlamites</a> and whatever else comes up :)
+In reality I probably won’t end up doing anything for another 3 months.</p>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="housekeeping" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Broken Silence]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Bedlamites/broken-silence/"/>
+    <updated>2009-09-10T19:12:40+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Bedlamites/broken-silence</id>
+    <content type="html"><![CDATA[<p>I really do plan to try and keep this up to date more often as I sort through my photo’s expect some updates to appear. First up is the photo’s I took at the <a href="http://www.bedlamites.co.uk/">Friends of Bedlam</a> AGM and <a href="http://www.bedlamites.co.uk/v/Events/Fringe2009/">end of Fringe Party</a>.</p>
+
+<p><a href="http://www.bedlamites.co.uk/v/Events/Fringe2009/IMG_2961.JPG.html"><img src="http://www.bedlamites.co.uk/d/6247-2/IMG_2961.JPG" alt="" /></a></p>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="bedlamites" />
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="photos" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New passport.]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/new-passport/"/>
+    <updated>2008-10-24T01:01:09+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/new-passport</id>
+    <content type="html"><![CDATA[<p><a href="http://farm4.static.flickr.com/3247/2967309821_16c710b6ca_b.jpg"><span class="caption-wrapper"><img class="caption" src="http://farm4.static.flickr.com/3247/2967309821_16c710b6ca_b.jpg" width="" height="" alt="New British Passport" title="New British Passport" /><span class="caption-text">New British Passport</span></span></a></p>
+
+<p>Finally. I have a new Nationality and passport to go with it.</p>
+
+<p>I’m impressed by the efficiency of of Identity and passport agency service. I had an interview with them on Tuesday to “confirm my identity” and the new passport arrived today.</p>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="photos" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Holiday on Lewis!]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/holiday-on-lewis/"/>
+    <updated>2008-06-01T20:33:00+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/holiday-on-lewis</id>
+    <content type="html"><![CDATA[<p><a href="http://farm4.static.flickr.com/3232/2605108009_19c4bbbe4c_b.jpg"><img src="http://farm4.static.flickr.com/3232/2605108009_19c4bbbe4c_b.jpg" alt="" /></a>
+<a href="http://flickr.com/photos/chrisfleming/sets/72157605501743086/">Photos from Last months holiday in Lewis</a> have finally been uploaded to <a href="http://www.flickr.com/people/chrisfleming/">my Flickr account</a></p>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="photos" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Cold day.]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/a-cold-day/"/>
+    <updated>2008-01-13T13:19:52+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/a-cold-day</id>
+    <content type="html"><![CDATA[<p><a href="http://farm3.static.flickr.com/2040/2187948846_a2f39b37e4_b.jpg"><span class="caption-wrapper"><img class="caption" src="http://farm3.static.flickr.com/2040/2187948846_a2f39b37e4_b.jpg" width="" height="" alt="The shadow looks almost 3D in the ice." title="The shadow looks almost 3D in the ice." /><span class="caption-text">The shadow looks almost 3D in the ice.</span></span></a></p>
+
+<p><a href="http://farm3.static.flickr.com/2137/2188825963_fa352ac472_b.jpg"><span class="caption-wrapper"><img class="caption" src="http://farm3.static.flickr.com/2137/2188825963_fa352ac472_b.jpg" width="" height="" alt="The view from the front" title="The view from the front" /><span class="caption-text">The view from the front</span></span></a></p>
+
+<p>I took these pictures at the Lochrin basin at the end of the union canal. The sun was just warm enough to melt the ice, but anything in the shade remained icy. Full size versions are available on <a href="http://www.flickr.com/photos/chrisfleming/2187948846/in/photostream/">Flickr</a></p>
+]]></content>
+    
+      <category scheme="http://chrisfleming.github.com/octopress/categories/" term="photos" />
+    
+  </entry>
+  
+</feed>

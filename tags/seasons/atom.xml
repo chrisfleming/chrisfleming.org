@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: seasons | chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress/tags/seasons/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Autumn Colour]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/autumn-colour/"/>
+    <updated>2006-11-20T15:54:53+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/autumn-colour</id>
+    <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/chrisfleming/301957281/"><img src="http://static.flickr.com/112/301957281_78c262c390.jpg" alt="leaves" /></a>
+On the lookout for some Autumn Pictures I managed to get this shot of some leaves under a layer of water on a children’s slide.</p>
+]]></content>
+  </entry>
+  
+</feed>

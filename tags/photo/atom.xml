@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: photo | chrisfleming.org]]></title>
+  <link href="http://chrisfleming.github.com/octopress/tags/photo/atom.xml" rel="self"/>
+  <link href="http://chrisfleming.github.com/octopress/"/>
+  <updated>2018-02-03T10:59:54+00:00</updated>
+  <id>http://chrisfleming.github.com/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Fleming]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Pirates?]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/pirates/"/>
+    <updated>2007-09-19T13:27:42+01:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/pirates</id>
+    <content type="html"><![CDATA[<p><a href="/post-assets/2007-09-19-pirates/skull_crossbones_800.jpg"><img src="/post-assets/2007-09-19-pirates/skull_crossbones_800.jpg" alt="" /></a>
+So I just happened to upload this picture on to <a href="http://www.flickr.com/photos/chrisfleming/">my flickr pages</a> in the early hours of the morning, 
+not because of <a href="http://www.yarr.org.uk/">talk like a pirate day</a>, but as part of my general sorting out of my photos taken over the Summer. 
+However because of the pirate theme, it has made it’s way onto the “Interesting” page on flickr!</p>
+
+<p>We had stopped at <a href="http://www.flickr.com/photos/chrisfleming/1404515378/">Melrose Abbey</a> 
+on the way back from <a href="http://www.chrisfleming.org/gallery2/v/friends/Katherine_and_Colins_Wedding/">Katherine and Colin’s wedding</a>, 
+and I took this picture while walking about on a fine sunny day.</p>
+
+<p>**UPDATE: **Thanks to <a href="http://www.syddware.com/cgi-bin/pirate.pl">http://www.syddware.com/cgi-bin/pirate.pl</a></p>
+
+<p>A sea dog says ‘t this way: 
+So  I jus’ happened t’ upload this picture on t’ me flickr pages in th’  early hours o’ th’ mornin’, nay on accoun’ o’ o’ talk like a<br />
+swashbuckler tide, but as part o’ me general sortin’ ou’ o’ me photos  taken o’er th’ Summer. Howerebecause o’ th’ swashbuckler theme, 
+‘t has made ‘tis way  onto th’ “Interesting” page on flickr!
+This picture be taken at Melrose Abbey on th’ way aft from Katherine an’  Colin`s weddin’, on a fine sunny tide.
+Ya  scurvy dog who ortin’ t’ be keel hauled!</p>
+
+<p>**UPDATE2: **Thanks to comments on Flickr, the Latin above reads “memento  mori”  or “remember you are mortal”, 
+or something of that ilk? (someone  else recons  “Mei Entomo”) anyone any ideas?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Autumn Colour]]></title>
+    <link href="http://chrisfleming.github.com/octopress/Photos/autumn-colour/"/>
+    <updated>2006-11-20T15:54:53+00:00</updated>
+    <id>http://chrisfleming.github.com/octopress/Photos/autumn-colour</id>
+    <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/chrisfleming/301957281/"><img src="http://static.flickr.com/112/301957281_78c262c390.jpg" alt="leaves" /></a>
+On the lookout for some Autumn Pictures I managed to get this shot of some leaves under a layer of water on a children’s slide.</p>
+]]></content>
+  </entry>
+  
+</feed>
