@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://chrisfleming.org
+url: http://chrisfleming.github.com/chrisfleming-org-built
 title: chrisfleming.org
 subtitle: my home
 author: Chris Fleming
@@ -17,7 +17,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /chrisfleming-org-built/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -27,10 +27,10 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /chrisfleming-org-built
 permalink: /:categories/:title/
 source: source
-destination: public
+destination: public/chrisfleming-org-built
 plugins: plugins
 code_dir: downloads/code
 category_dir: /
