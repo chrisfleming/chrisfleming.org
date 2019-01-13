@@ -25,10 +25,12 @@ is the ability to actually do things with the data, so to kick things off I've c
 These contain the full walking or cycling route and are suitable to be loaded into your GPS or phone app as aids to navigating the 
 route.
 
-[[ DOWNLOAD HERE ]]
+{% for file in site.static_files %}
+  {% if file.path contains "post-assets/2014-05-28-john-muir-way" %}* <a href="{{ site.baseurl }}{{ file.path }}">{{ file.name }}</a> {% endif %}
+{% endfor %}
 
 Map wise, as always I'm disapointed to see the otherwise very nice John Muir Way website using google maps rather than an OpenStreetMap 
-based map, 
+based map:
 
 <div id="map" style="width:100%; height:300px; border:0px;">
 
