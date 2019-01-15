@@ -98,6 +98,9 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
 
+feed:
+  path: atom.xml
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
@@ -112,10 +115,11 @@ github_skip_forks: true
 twitter_usernane: chrisfl
 
 # Disqus Comments
-disqus.shortname: chrisfleming
+disqus:
+  shortname: chrisfleming
 
 # Google Analytics
-google_analytics_tracking_id: UA-556965-4
+google_analytics: UA-556965-4
 
 jekyll-archives:
   enabled: all
