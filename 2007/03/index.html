@@ -26,9 +26,16 @@
 <link rel="shortcut icon" href="/favicon.ico" />
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml" />
 
-  <!-- Additional head bits without overriding original head -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+
+ <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
 </head>
 
   <body class="archive">
@@ -67,7 +74,7 @@
 
   <a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
-     href="/feed.xml">
+     href="/atom.xml">
     <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
     <path d="M0 0h24v24H0z" fill="none"/>
     <circle cx="6.18" cy="17.82" r="2.18"/>
@@ -106,19 +113,19 @@
   
     <li>
 		<h3>
-			<a href="/Photos/a-missed-train-and-a-sunset">A Missed Train and a sunset</a>
+			<a href="/photos/a-missed-train-and-a-sunset">A Missed Train and a sunset</a>
 		</h3>
     </li>
   
     <li>
 		<h3>
-			<a href="/Photos/spring-has-arrived">Spring has arrived</a>
+			<a href="/photos/spring-has-arrived">Spring has arrived</a>
 		</h3>
     </li>
   
     <li>
 		<h3>
-			<a href="/Photos/sunset-over-the-forth-and-union-canal">Sunset Over the Forth and Union Canal</a>
+			<a href="/photos/sunset-over-the-forth-and-union-canal">Sunset Over the Forth and Union Canal</a>
 		</h3>
     </li>
   

@@ -26,9 +26,16 @@
 <link rel="shortcut icon" href="/favicon.ico" />
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml" />
 
-  <!-- Additional head bits without overriding original head -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+
+ <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
 </head>
 
   <body class="default home">
@@ -62,7 +69,7 @@
 
   <a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
-     href="/feed.xml">
+     href="/atom.xml">
     <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
     <path d="M0 0h24v24H0z" fill="none"/>
     <circle cx="6.18" cy="17.82" r="2.18"/>
@@ -91,92 +98,11 @@
       <div class="content">
   
 
-  <header>
-  <h1 class="page-title">About</h1>
-</header>
-<div class="content">
-  <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
-
-<p>You can find the source code for Minima at GitHub:
-<a href="https://github.com/jekyll">jekyll</a> /
-<a href="https://github.com/jekyll/minima">minima</a></p>
-
-<p>You can find the source code for Jekyll at GitHub:
-<a href="https://github.com/jekyll">jekyll</a> /
-<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
-
-
-</div>
-
 
   
   <article class="post-body">
     <h2 class="post-title">
-      <a href="/jekyll/welcome-to-jekyll">
-        Welcome to Jekyll!
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">05 Jan 2019</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/jekyll/">
-          jekyll
-        </a>
-      
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/update/">
-          update
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/OpenStreetMap/john-muir-way">
+      <a href="/openstreetmap/john-muir-way">
         John Muir Way
       </a>
     </h2>
@@ -243,10 +169,17 @@ is the ability to actually do things with the data, so to kick things off I've c
 <p>These contain the full walking or cycling route and are suitable to be loaded into your GPS or phone app as aids to navigating the 
 route.</p>
 
-<p>[[ DOWNLOAD HERE ]]</p>
+<ul>
+  <li>
+    <p><a href="/post-assets/2014-05-28-john-muir-way/cycling.gpx">cycling.gpx</a></p>
+  </li>
+  <li>
+    <p><a href="/post-assets/2014-05-28-john-muir-way/walking.gpx">walking.gpx</a></p>
+  </li>
+</ul>
 
 <p>Map wise, as always I'm disapointed to see the otherwise very nice John Muir Way website using google maps rather than an OpenStreetMap 
-based map,</p>
+based map:</p>
 
 <div id="map" style="width:100%; height:300px; border:0px;">
 
@@ -284,7 +217,7 @@ Interestingly this shows cycling distance as 206km and the walking distance as 2
   
   <article class="post-body">
     <h2 class="post-title">
-      <a href="/OpenStreetMap/android-apps-for-mapping">
+      <a href="/openstreetmap/android-apps-for-mapping">
         Android apps for mapping
       </a>
     </h2>
@@ -427,7 +360,7 @@ OpenStreetMap.</p>
   
   <article class="post-body">
     <h2 class="post-title">
-      <a href="/Android/android-apps-for-mapping-parties">
+      <a href="/android/android-apps-for-mapping-parties">
         Android Apps for mapping parties
       </a>
     </h2>
@@ -530,7 +463,7 @@ your finger. Geometries can then we tweaked as neccessary.</p>
   
   <article class="post-body">
     <h2 class="post-title">
-      <a href="/Housekeeping/switch-to-octopress">
+      <a href="/housekeeping/switch-to-octopress">
         Switch to Octopress
       </a>
     </h2>
@@ -605,7 +538,7 @@ provides a nice history of the work and changes I've made to the standard Octopr
   
   <article class="post-body">
     <h2 class="post-title">
-      <a href="/OpenStreetMap/osm-talk-for-esk-valley-rotary-club">
+      <a href="/openstreetmap/osm-talk-for-esk-valley-rotary-club">
         OSM Talk for Esk Valley Rotary Club 
       </a>
     </h2>
@@ -685,7 +618,7 @@ and I was very happy to find the road was there and we had lots of details aroun
   
   <article class="post-body">
     <h2 class="post-title">
-      <a href="/OpenStreetMap/state-of-the-map-scotland-2012-the-state-of-scotland">
+      <a href="/openstreetmap/state-of-the-map-scotland-2012-the-state-of-scotland">
         State of the Map Scotland 2013 - The State of Scotland
       </a>
     </h2>
@@ -1308,7 +1241,7 @@ The table above lists the top 20 way types by length.</p>
   
   <article class="post-body">
     <h2 class="post-title">
-      <a href="/OpenStreetMap/state-of-the-map-scotland-2012-the-state-of-scotland">
+      <a href="/openstreetmap/state-of-the-map-scotland-2012-the-state-of-scotland">
         State of the Map Scotland 2012 - The State of Scotland
       </a>
     </h2>
@@ -1931,7 +1864,7 @@ The table above lists the top 20 way types by length.</p>
   
   <article class="post-body">
     <h2 class="post-title">
-      <a href="/OpenStreetMap/new-lanark-mapping-party">
+      <a href="/openstreetmap/new-lanark-mapping-party">
         New Lanark Mapping Party
       </a>
     </h2>
@@ -2011,14 +1944,14 @@ The table above lists the top 20 way types by length.</p>
       
 
       
-        <a href="/OpenStreetMap/new-lanark-mapping-party">More &hellip;</a>
+        <a href="/openstreetmap/new-lanark-mapping-party">More &hellip;</a>
       
     
   </article>
   
   <article class="post-body">
     <h2 class="post-title">
-      <a href="/OpenStreetMap/sotm-scotland-videos-online">
+      <a href="/openstreetmap/sotm-scotland-videos-online">
         SOTM Scotland Video's online
       </a>
     </h2>
@@ -2057,6 +1990,51 @@ Hopefully I'll get my slides from the other talk I did, on making my festival ma
 
 Finally a big thanks to "the other" Bob from [City Strolls](http://www.citystrolls.com/) for doing the had work of making and editing the video's.
 </iframe></div></div>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/family/is-the-baby-ready-yet">
+        Is the baby ready yet?
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">19 Sep 2011</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/family/">
+          Family
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p><img src="/post-assets/2011-09-19-is-the-baby-ready-yet/scan_anom.jpg" alt="" /></p>
+
+<p>The baby is now much bigger than when this scan was done… and some folks I work with requested a dashboard. So the answer all your questions is at <a href="http://isthebabyreadyyet.chrisfleming.org">http://isthebabyreadyyet.chrisfleming.org/</a></p>
+
+<p>I'm not sure how much time I'll actually have to keep this up to date, but there will be some updates.</p>
+
+<p>The source (a horrid mix of html, css and javascript) is <a href="https://github.com/chrisfleming/IS-The-baby-ready-yet-">available on github.</a></p>
 
     
 
