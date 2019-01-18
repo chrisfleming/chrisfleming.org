@@ -15,7 +15,15 @@
     
   </title>
 
-  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-556965-4', 'auto');
+  ga('send', 'pageview');
+  </script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/main.css" />
@@ -527,9 +535,9 @@
   *  https://disqus.com/admin/universalcode/#configuration-variables
   */
   var disqus_config = function () {
-    this.page.url = "http://localhost:4000/openstreetmap/state-of-the-map-scotland-the-state-of-scotland";
+    this.page.url = "http://chrisfleming.org//openstreetmap/state-of-the-map-scotland-the-state-of-scotland";
     this.page.identifier = "" ||
-                           "http://localhost:4000/openstreetmap/state-of-the-map-scotland-the-state-of-scotland";
+                           "http://chrisfleming.org//openstreetmap/state-of-the-map-scotland-the-state-of-scotland";
   }
   function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
