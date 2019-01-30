@@ -15,15 +15,7 @@
     
   </title>
 
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-556965-4', 'auto');
-  ga('send', 'pageview');
-  </script>
+  
 
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/main.css" />
@@ -107,6 +99,336 @@
   
 
 
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/openstreetmap/state-of-the-map-2019-part-1-highways">
+        The State of the Map Scotland 2018 - Part 1 Highways
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">24 Jan 2019</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/openstreetmap/">
+          OpenStreetMap
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p>It's been a while, but I though it would be interesting to have a look at
+how the map in Scotland is looking at the start of 2019. Hopefully this will be 
+a series of posts over the next few weeks looking at different aspects of the map.</p>
+
+<p>I've been organised enough to download the Scotland extract on the 1st January.
+I also have a set of data up to the 30th September 2015, so I can look at 
+progress over the last 2 and quarter years.</p>
+
+<p>First up is Highways:</p>
+
+<p><img src="/post-assets/2019-01-24-sotm1/scotland_highways_grey.png" alt="" /></p>
+
+<p>And listed by length:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>highway</th>
+      <th>2019 km</th>
+      <th>Oct 2015</th>
+      <th>% change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>track</td>
+      <td>36439.04</td>
+      <td>25883.02</td>
+      <td>40.8</td>
+    </tr>
+    <tr>
+      <td>unclassified</td>
+      <td>17577.05</td>
+      <td>19022.80</td>
+      <td>-7.6%</td>
+    </tr>
+    <tr>
+      <td>service</td>
+      <td>15228.94</td>
+      <td>10134.13</td>
+      <td>50.27%</td>
+    </tr>
+    <tr>
+      <td>residential</td>
+      <td>14795.73</td>
+      <td>14311.34</td>
+      <td>3.38%</td>
+    </tr>
+    <tr>
+      <td>path</td>
+      <td>10078.21</td>
+      <td>7350.05</td>
+      <td>37.12 %</td>
+    </tr>
+    <tr>
+      <td>tertiary</td>
+      <td>9635.97</td>
+      <td>8564.57</td>
+      <td>12.51 %</td>
+    </tr>
+    <tr>
+      <td>footway</td>
+      <td>9393.48</td>
+      <td>7888.44</td>
+      <td>19.08 %</td>
+    </tr>
+    <tr>
+      <td>primary</td>
+      <td>7632.37</td>
+      <td>7557.44</td>
+      <td>0.99%</td>
+    </tr>
+    <tr>
+      <td>secondary</td>
+      <td>7423.45</td>
+      <td>7416.27</td>
+      <td>0.10 %</td>
+    </tr>
+    <tr>
+      <td>trunk</td>
+      <td>3609.15</td>
+      <td>3553.73</td>
+      <td>1.56%</td>
+    </tr>
+    <tr>
+      <td>cycleway</td>
+      <td>2079.69</td>
+      <td>1810.81</td>
+      <td>14.85%</td>
+    </tr>
+    <tr>
+      <td>motorway</td>
+      <td>863.83</td>
+      <td>827.14</td>
+      <td>4.44 %</td>
+    </tr>
+    <tr>
+      <td>motorway_link</td>
+      <td>241.17</td>
+      <td>219.95</td>
+      <td>9.65 %</td>
+    </tr>
+    <tr>
+      <td>trunk_link</td>
+      <td>155.97</td>
+      <td>145.52</td>
+      <td>7.18 %</td>
+    </tr>
+    <tr>
+      <td>road</td>
+      <td>131.84</td>
+      <td>316.48</td>
+      <td>-58.34%</td>
+    </tr>
+    <tr>
+      <td>steps</td>
+      <td>118.65</td>
+      <td>88.80</td>
+      <td>33.61%</td>
+    </tr>
+    <tr>
+      <td>proposed</td>
+      <td>114.39</td>
+      <td>122.88</td>
+      <td>-6.91%</td>
+    </tr>
+    <tr>
+      <td>pedestrian</td>
+      <td>103.90</td>
+      <td>70.01</td>
+      <td>48.41%</td>
+    </tr>
+    <tr>
+      <td>construction</td>
+      <td>97.87</td>
+      <td>253.78</td>
+      <td>-61.44%</td>
+    </tr>
+    <tr>
+      <td>bridleway</td>
+      <td>73.26</td>
+      <td>77.59</td>
+      <td>-5.58%</td>
+    </tr>
+    <tr>
+      <td>primary_link</td>
+      <td>46.28</td>
+      <td>37.13</td>
+      <td>24.65%</td>
+    </tr>
+    <tr>
+      <td>bus_stop</td>
+      <td>29.57</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>living_street</td>
+      <td>27.96</td>
+      <td>15.95</td>
+      <td>15.95%</td>
+    </tr>
+    <tr>
+      <td>raceway</td>
+      <td>16.61</td>
+      <td>13.75</td>
+      <td>20.80%</td>
+    </tr>
+    <tr>
+      <td>secondary_link</td>
+      <td>10.28</td>
+      <td>8.92</td>
+      <td>15.25%</td>
+    </tr>
+    <tr>
+      <td>tertiary_link</td>
+      <td>5.84</td>
+      <td>8.50</td>
+      <td>-31.29%</td>
+    </tr>
+    <tr>
+      <td>abandoned</td>
+      <td>4.15</td>
+      <td>3.30</td>
+      <td>25.76%</td>
+    </tr>
+    <tr>
+      <td>no</td>
+      <td>2.63</td>
+      <td>2.20</td>
+      <td>19.55%</td>
+    </tr>
+    <tr>
+      <td>corridor</td>
+      <td>0.78</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>disused</td>
+      <td>0.44</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>escape</td>
+      <td>0.10</td>
+      <td>0.10</td>
+      <td>0.00%</td>
+    </tr>
+    <tr>
+      <td>services</td>
+      <td>0.05</td>
+      <td>0.57</td>
+      <td>-91.23%</td>
+    </tr>
+    <tr>
+      <td>layby</td>
+      <td>0.04</td>
+      <td>0.34</td>
+      <td>-88.24%</td>
+    </tr>
+    <tr>
+      <td>crossing</td>
+      <td>0.02</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>dismantled</td>
+      <td>0.02</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>TOTAL</td>
+      <td>135 938</td>
+      <td>115 707</td>
+      <td>17%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>To start with, lets look at the roads. As has been the case for a number of years
+mapping the main road network in Scotland was completed a number of years ago,
+and the recent changes have been related to some big construction projects such
+as the Queensferry Crossing, M8 Upgrades and the Queensferry Crossing</p>
+
+<p><img src="/post-assets/2019-01-24-sotm1/scotland_motorways_2015vs2018.png" alt="" />
+<em>All motorways in Scotland, red shows the new Motorways</em></p>
+
+<p>The only road type showing a drop in length is unclassified. This is largely down
+to improvements in the classifications of roads, in particular to
+<a href="https://wiki.openstreetmap.org/wiki/Tag:highway=tertiary?uselang=en-GB">tertiary</a></p>
+
+<p><img src="/post-assets/2019-01-24-sotm1/scotland_service_roads.png" alt="" />
+<em>Service Roads in Scotland</em></p>
+
+<p>We've also seen a big increase in Service roads, it's worth noting that 
+a number of these have been added by Amazon Logistics - they seem to be adding
+just the last little bit connecting roads to buildings, the service road from 
+road to the house or the office. These edits definitly have been rocky at times, such as 
+the <a href="https://www.openstreetmap.org/changeset/61074110">removal of a car park, just mapped</a>
+based on out of imagery. In general I've very happy to see commerical edits, but
+as this shows new mappers need to be properly trained on how to asses the general
+state of the map especially before removing things.</p>
+
+<p><img src="/post-assets/2019-01-24-sotm1/scotland_paths_tracks_cycleways.png" alt="" />
+<em>Paths Tracks and Cycleways</em></p>
+
+<p>I've very pleased to see big increases, in the mapping of tracks and
+paths as well as the increase in cycleways although I think these are largely 
+fine tuning of tagging of paths. Hopefully it won't be long until we have full 
+coverage of all paths and tracks and these will be much more stable.</p>
+
+<p>Finally we have the long tail of tags, of these highway=road, which is 
+really a placeholder and shouldn't be used still has far too many entries so for
+the moment, I've made a list of these to work through - <a href="https://github.com/osm-scotland/scotland-issues/issues/4"></a>
+if anyone wants to help then jump in, let me know if you need permission 
+for the github link.</p>
+
+<p>The same thing applies to highway=no; These have mostly been used where a highway
+has been removed. This is useful as it signals to remote mappers (such as the 
+amazon logistics folks above) that the road has been removed. However once the 
+imagery updates having these no longer makes sense. In case any one wants to 
+look at these, I've made a list at: 
+<a href="https://github.com/osm-scotland/scotland-issues/issues/5"></a></p>
+
+<p>Hopefully I'll be getting a part 2 out in the next few weeks.</p>
+
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
   
   <article class="post-body">
     <h2 class="post-title">
@@ -1998,51 +2320,6 @@ Hopefully I'll get my slides from the other talk I did, on making my festival ma
 
 Finally a big thanks to "the other" Bob from [City Strolls](http://www.citystrolls.com/) for doing the had work of making and editing the video's.
 </iframe></div></div>
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/family/is-the-baby-ready-yet">
-        Is the baby ready yet?
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">19 Sep 2011</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/family/">
-          Family
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p><img src="/post-assets/2011-09-19-is-the-baby-ready-yet/scan_anom.jpg" alt="" /></p>
-
-<p>The baby is now much bigger than when this scan was done… and some folks I work with requested a dashboard. So the answer all your questions is at <a href="http://isthebabyreadyyet.chrisfleming.org">http://isthebabyreadyyet.chrisfleming.org/</a></p>
-
-<p>I'm not sure how much time I'll actually have to keep this up to date, but there will be some updates.</p>
-
-<p>The source (a horrid mix of html, css and javascript) is <a href="https://github.com/chrisfleming/IS-The-baby-ready-yet-">available on github.</a></p>
 
     
 

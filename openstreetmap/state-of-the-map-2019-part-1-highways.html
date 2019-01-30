@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      The State of the Map Scotland 2018 - Part 1 Highways &middot; chrisfleming.org
+    
+  </title>
+
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+
+ <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
+</head>
+
+  <body class="post">
+
+    <div id="sidebar">
+  <header>
+    <div class="site-title">
+      <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        chrisfleming.org
+      </a>
+    </div>
+    <p class="lead">musings on photography, mapping and life in general.</p>
+  </header>
+  <nav id="sidebar-nav-links">
+  
+  
+
+  
+
+  
+  
+
+  <!-- Optional additional links to insert in sidebar nav -->
+</nav>
+
+  
+
+  <nav id="sidebar-icon-links">
+  
+
+  <a id="subscribe-link"
+     class="icon" title="Subscribe" aria-label="Subscribe"
+     href="/atom.xml">
+    <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+  </a>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <!-- Optional additional links to insert for icons links -->
+</nav>
+  <p>
+  &copy; 2019.
+  <a href="/LICENSE.md">MIT License.</a>
+</p>
+</div>
+
+    <main class="container">
+      <header>
+  <h1 class="post-title">The State of the Map Scotland 2018 - Part 1 Highways</h1>
+</header>
+<div class="content">
+  <div class="post-meta">
+  <span class="post-date">24 Jan 2019</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/openstreetmap/">
+          OpenStreetMap
+        </a>
+      
+    
+  </span>
+</div>
+
+  <div class="post-body">
+    <p>It's been a while, but I though it would be interesting to have a look at
+how the map in Scotland is looking at the start of 2019. Hopefully this will be 
+a series of posts over the next few weeks looking at different aspects of the map.</p>
+
+<p>I've been organised enough to download the Scotland extract on the 1st January.
+I also have a set of data up to the 30th September 2015, so I can look at 
+progress over the last 2 and quarter years.</p>
+
+<p>First up is Highways:</p>
+
+<p><img src="/post-assets/2019-01-24-sotm1/scotland_highways_grey.png" alt="" /></p>
+
+<p>And listed by length:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>highway</th>
+      <th>2019 km</th>
+      <th>Oct 2015</th>
+      <th>% change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>track</td>
+      <td>36439.04</td>
+      <td>25883.02</td>
+      <td>40.8</td>
+    </tr>
+    <tr>
+      <td>unclassified</td>
+      <td>17577.05</td>
+      <td>19022.80</td>
+      <td>-7.6%</td>
+    </tr>
+    <tr>
+      <td>service</td>
+      <td>15228.94</td>
+      <td>10134.13</td>
+      <td>50.27%</td>
+    </tr>
+    <tr>
+      <td>residential</td>
+      <td>14795.73</td>
+      <td>14311.34</td>
+      <td>3.38%</td>
+    </tr>
+    <tr>
+      <td>path</td>
+      <td>10078.21</td>
+      <td>7350.05</td>
+      <td>37.12 %</td>
+    </tr>
+    <tr>
+      <td>tertiary</td>
+      <td>9635.97</td>
+      <td>8564.57</td>
+      <td>12.51 %</td>
+    </tr>
+    <tr>
+      <td>footway</td>
+      <td>9393.48</td>
+      <td>7888.44</td>
+      <td>19.08 %</td>
+    </tr>
+    <tr>
+      <td>primary</td>
+      <td>7632.37</td>
+      <td>7557.44</td>
+      <td>0.99%</td>
+    </tr>
+    <tr>
+      <td>secondary</td>
+      <td>7423.45</td>
+      <td>7416.27</td>
+      <td>0.10 %</td>
+    </tr>
+    <tr>
+      <td>trunk</td>
+      <td>3609.15</td>
+      <td>3553.73</td>
+      <td>1.56%</td>
+    </tr>
+    <tr>
+      <td>cycleway</td>
+      <td>2079.69</td>
+      <td>1810.81</td>
+      <td>14.85%</td>
+    </tr>
+    <tr>
+      <td>motorway</td>
+      <td>863.83</td>
+      <td>827.14</td>
+      <td>4.44 %</td>
+    </tr>
+    <tr>
+      <td>motorway_link</td>
+      <td>241.17</td>
+      <td>219.95</td>
+      <td>9.65 %</td>
+    </tr>
+    <tr>
+      <td>trunk_link</td>
+      <td>155.97</td>
+      <td>145.52</td>
+      <td>7.18 %</td>
+    </tr>
+    <tr>
+      <td>road</td>
+      <td>131.84</td>
+      <td>316.48</td>
+      <td>-58.34%</td>
+    </tr>
+    <tr>
+      <td>steps</td>
+      <td>118.65</td>
+      <td>88.80</td>
+      <td>33.61%</td>
+    </tr>
+    <tr>
+      <td>proposed</td>
+      <td>114.39</td>
+      <td>122.88</td>
+      <td>-6.91%</td>
+    </tr>
+    <tr>
+      <td>pedestrian</td>
+      <td>103.90</td>
+      <td>70.01</td>
+      <td>48.41%</td>
+    </tr>
+    <tr>
+      <td>construction</td>
+      <td>97.87</td>
+      <td>253.78</td>
+      <td>-61.44%</td>
+    </tr>
+    <tr>
+      <td>bridleway</td>
+      <td>73.26</td>
+      <td>77.59</td>
+      <td>-5.58%</td>
+    </tr>
+    <tr>
+      <td>primary_link</td>
+      <td>46.28</td>
+      <td>37.13</td>
+      <td>24.65%</td>
+    </tr>
+    <tr>
+      <td>bus_stop</td>
+      <td>29.57</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>living_street</td>
+      <td>27.96</td>
+      <td>15.95</td>
+      <td>15.95%</td>
+    </tr>
+    <tr>
+      <td>raceway</td>
+      <td>16.61</td>
+      <td>13.75</td>
+      <td>20.80%</td>
+    </tr>
+    <tr>
+      <td>secondary_link</td>
+      <td>10.28</td>
+      <td>8.92</td>
+      <td>15.25%</td>
+    </tr>
+    <tr>
+      <td>tertiary_link</td>
+      <td>5.84</td>
+      <td>8.50</td>
+      <td>-31.29%</td>
+    </tr>
+    <tr>
+      <td>abandoned</td>
+      <td>4.15</td>
+      <td>3.30</td>
+      <td>25.76%</td>
+    </tr>
+    <tr>
+      <td>no</td>
+      <td>2.63</td>
+      <td>2.20</td>
+      <td>19.55%</td>
+    </tr>
+    <tr>
+      <td>corridor</td>
+      <td>0.78</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>disused</td>
+      <td>0.44</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>escape</td>
+      <td>0.10</td>
+      <td>0.10</td>
+      <td>0.00%</td>
+    </tr>
+    <tr>
+      <td>services</td>
+      <td>0.05</td>
+      <td>0.57</td>
+      <td>-91.23%</td>
+    </tr>
+    <tr>
+      <td>layby</td>
+      <td>0.04</td>
+      <td>0.34</td>
+      <td>-88.24%</td>
+    </tr>
+    <tr>
+      <td>crossing</td>
+      <td>0.02</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>dismantled</td>
+      <td>0.02</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>TOTAL</td>
+      <td>135 938</td>
+      <td>115 707</td>
+      <td>17%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>To start with, lets look at the roads. As has been the case for a number of years
+mapping the main road network in Scotland was completed a number of years ago,
+and the recent changes have been related to some big construction projects such
+as the Queensferry Crossing, M8 Upgrades and the Queensferry Crossing</p>
+
+<p><img src="/post-assets/2019-01-24-sotm1/scotland_motorways_2015vs2018.png" alt="" />
+<em>All motorways in Scotland, red shows the new Motorways</em></p>
+
+<p>The only road type showing a drop in length is unclassified. This is largely down
+to improvements in the classifications of roads, in particular to
+<a href="https://wiki.openstreetmap.org/wiki/Tag:highway=tertiary?uselang=en-GB">tertiary</a></p>
+
+<p><img src="/post-assets/2019-01-24-sotm1/scotland_service_roads.png" alt="" />
+<em>Service Roads in Scotland</em></p>
+
+<p>We've also seen a big increase in Service roads, it's worth noting that 
+a number of these have been added by Amazon Logistics - they seem to be adding
+just the last little bit connecting roads to buildings, the service road from 
+road to the house or the office. These edits definitly have been rocky at times, such as 
+the <a href="https://www.openstreetmap.org/changeset/61074110">removal of a car park, just mapped</a>
+based on out of imagery. In general I've very happy to see commerical edits, but
+as this shows new mappers need to be properly trained on how to asses the general
+state of the map especially before removing things.</p>
+
+<p><img src="/post-assets/2019-01-24-sotm1/scotland_paths_tracks_cycleways.png" alt="" />
+<em>Paths Tracks and Cycleways</em></p>
+
+<p>I've very pleased to see big increases, in the mapping of tracks and
+paths as well as the increase in cycleways although I think these are largely 
+fine tuning of tagging of paths. Hopefully it won't be long until we have full 
+coverage of all paths and tracks and these will be much more stable.</p>
+
+<p>Finally we have the long tail of tags, of these highway=road, which is 
+really a placeholder and shouldn't be used still has far too many entries so for
+the moment, I've made a list of these to work through - <a href="https://github.com/osm-scotland/scotland-issues/issues/4"></a>
+if anyone wants to help then jump in, let me know if you need permission 
+for the github link.</p>
+
+<p>The same thing applies to highway=no; These have mostly been used where a highway
+has been removed. This is useful as it signals to remote mappers (such as the 
+amazon logistics folks above) that the road has been removed. However once the 
+imagery updates having these no longer makes sense. In case any one wants to 
+look at these, I've made a list at: 
+<a href="https://github.com/osm-scotland/scotland-issues/issues/5"></a></p>
+
+<p>Hopefully I'll be getting a part 2 out in the next few weeks.</p>
+
+
+    <div class="post-tags">
+  
+    <span>
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">SoTMScotland2019</span>
+    </span>
+  
+</div>
+  </div>
+
+  <section class="comments">
+    <h2>Comments</h2>
+    <div id="disqus_thread">
+    <button class="disqus-load" onClick="loadDisqusComments()">
+      Load Comments
+    </button>
+  </div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = "http://chrisfleming.org//openstreetmap/state-of-the-map-2019-part-1-highways";
+    this.page.identifier = "" ||
+                           "http://chrisfleming.org//openstreetmap/state-of-the-map-2019-part-1-highways";
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//chrisfleming.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  </script>
+  <noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
+  </noscript>
+  </section>
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/openstreetmap/john-muir-way">
+            John Muir Way
+            <small>28 May 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/openstreetmap/android-apps-for-mapping">
+            Android apps for mapping
+            <small>28 Mar 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/android/android-apps-for-mapping-parties">
+            Android Apps for mapping parties
+            <small>23 Mar 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
+</div>
+
+    </main>
+
+    <!-- Optional footer content -->
+  </body>
+</html>
